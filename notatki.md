@@ -1,5 +1,7 @@
 Tworzenie instancji
 
+	>> IFIX=/c/Program\ Files/IBM/Informix/11.70
+
    * Utwórz nową instancję serwera bazodanowego:
    * Nazwa instancji (DBSERVERNAME) ol2014_xx, gdzie xx – twoje inicjały (dotyczy to całego zadania, podczas wykonywania kolejnych operacji xx pojawiające się w dokumencie powinno być zastąpione inicjałami autora)
    * Plik tworzący rootdbs powinien znajdować się w katalogu c:\ol_xx_data (gdzie xx – twoje inicjały), rozmiar rootdbs 200 MB
