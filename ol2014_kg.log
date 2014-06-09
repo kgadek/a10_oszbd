@@ -1,0 +1,221 @@
+00:56:29  IBM Informix Dynamic Server Started.
+00:56:29  Warning: The IBM IDS Developer Edition license restriction limits
+00:56:29  the total shared memory size for this server to 1048576 KB.
+00:56:29  The maximum allowable shared memory was reset to this size to start the database server. 
+00:56:29  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 00:56:29 2014
+
+00:56:29  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+00:56:29  Booting Language <c> from module <>
+00:56:29  Loading Module <CNULL>
+00:56:29  Booting Language <builtin> from module <>
+00:56:29  Loading Module <BUILTINNULL>
+00:56:35  DR: DRAUTO is 0 (Off)
+00:56:35  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+00:56:35  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+00:56:38  IBM Informix Dynamic Server Initialized -- Complete Disk Initialized.
+00:56:38  Started 1 B-tree scanners.
+00:56:38  B-tree scanner threshold set at 5000.
+00:56:38  B-tree scanner range scan size set to -1.
+00:56:38  B-tree scanner ALICE mode set to 6.
+00:56:38  B-tree scanner index compression level set to med.
+00:56:38  Dataskip is now OFF for all dbspaces
+00:56:38  Building 'sysmaster' database ...
+00:56:38  Checkpoint Completed:  duration was 0 seconds.
+00:56:38  Tue Jun 10 - loguniq 1, logpos 0x3a8, timestamp: 0xc0 Interval: 2
+
+00:56:38  Maximum server connections 0 
+00:56:38  Checkpoint Statistics - Avg. Txn Block Time 0.008, # Txns blocked 1, Plog used 4, Llog used 1
+
+00:56:38  On-Line Mode
+00:56:56  Booting Language <spl> from module <>
+00:56:56  Loading Module <SPLNULL>
+00:56:56  Unloading Module <SPLNULL>
+00:56:57  Performance Advisory: Based on the current workload, the logical log space might be too small to
+accommodate the time it takes to flush the buffer pool.
+00:56:57   Results: The server might block transactions during checkpoints.
+00:56:57   Action: If transactions are blocked during the checkpoint, increase the size of the
+ logical log space to at least 81340 KB.
+00:56:57  Performance Advisory: The logical log space is too small for automatic checkpoints.
+00:56:57   Results: Automatic checkpoints are disabled.
+00:56:57   Action: To enable automatic checkpoints, increase the logical log space to at least 81340
+ KB.
+00:56:57  Logical Log 1 Complete, timestamp: 0x10afa.
+00:56:57  Checkpoint Completed:  duration was 0 seconds.
+00:56:57  Tue Jun 10 - loguniq 2, logpos 0x19c018, timestamp: 0x10b22 Interval: 3
+
+00:56:57  Maximum server connections 1 
+00:56:57  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 11, Llog used 2912
+
+00:57:15  Checkpoint Completed:  duration was 0 seconds.
+00:57:15  Tue Jun 10 - loguniq 2, logpos 0x476018, timestamp: 0x15f5b Interval: 4
+
+00:57:15  Maximum server connections 1 
+00:57:15  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 136, Llog used 730
+
+00:57:31  Loading Module <SPLNULL>
+00:57:32  Unloading Module <SPLNULL>
+00:57:33  Checkpoint Completed:  duration was 0 seconds.
+00:57:33  Tue Jun 10 - loguniq 2, logpos 0x75b018, timestamp: 0x1b2f6 Interval: 5
+
+00:57:33  Maximum server connections 1 
+00:57:33  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 96, Llog used 741
+
+00:57:34  Checkpoint Completed:  duration was 0 seconds.
+00:57:34  Tue Jun 10 - loguniq 2, logpos 0x75d018, timestamp: 0x1b2fe Interval: 6
+
+00:57:34  Maximum server connections 1 
+00:57:34  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+00:57:35  'sysmaster' database built successfully.
+00:57:36  'sysutils' database built successfully.
+00:57:36  'sysuser' database built successfully.
+00:57:42  Init operation complete - Mode Online Initialized
+00:57:43  Checkpoint Completed:  duration was 0 seconds.
+00:57:43  Tue Jun 10 - loguniq 2, logpos 0x75f3cc, timestamp: 0x1b320 Interval: 7
+
+00:57:43  Maximum server connections 1 
+00:57:43  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 4, Llog used 2
+
+00:57:43  Space 'ol2014_kg' added.
+00:57:44  Building 'sysadmin' database ...
+00:57:45  Loading Module <SPLNULL>
+00:57:45  'sysadmin' database built successfully.
+00:57:45  Checkpoint Completed:  duration was 0 seconds.
+00:57:45  Tue Jun 10 - loguniq 3, logpos 0x458018, timestamp: 0x23be2 Interval: 8
+
+00:57:45  Maximum server connections 1 
+00:57:45  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 1, Plog used 79, Llog used 1725
+
+00:57:45  Logical Log 2 Complete, timestamp: 0x23be4.
+00:57:45  SCHAPI: Started dbScheduler thread.
+00:57:45  Auto Registration is synced
+00:57:45  SCHAPI: Started 2 dbWorker threads.
+01:03:01  Checkpoint Completed:  duration was 0 seconds.
+01:03:01  Tue Jun 10 - loguniq 3, logpos 0x5f0018, timestamp: 0x24f9d Interval: 9
+
+01:03:01  Maximum server connections 1 
+01:03:01  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 57, Llog used 408
+
+01:11:44  Checkpoint Completed:  duration was 0 seconds.
+01:11:44  Tue Jun 10 - loguniq 3, logpos 0x5f2018, timestamp: 0x24fab Interval: 10
+
+01:11:44  Maximum server connections 1 
+01:11:44  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 10, Llog used 2
+
+01:11:45  IBM Informix Dynamic Server Stopped.
+
+01:13:25  IBM Informix Dynamic Server Started.
+01:13:25  Warning: The IBM IDS Developer Edition license restriction limits
+01:13:25  the total shared memory size for this server to 1048576 KB.
+01:13:25  The maximum allowable shared memory was reset to this size to start the database server. 
+01:13:25  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 01:13:25 2014
+
+01:13:25  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+01:13:25  Booting Language <c> from module <>
+01:13:25  Loading Module <CNULL>
+01:13:25  Booting Language <builtin> from module <>
+01:13:25  Loading Module <BUILTINNULL>
+01:13:31  DR: DRAUTO is 0 (Off)
+01:13:31  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+01:13:31  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+01:13:31  Warning: stat() failed for chunk file C:\ol_kg_data\rootdbs_dat.000
+01:13:31  Cannot Open Primary Chunk 'C:\ol_kg_data\rootdbs_dat.000', errno = 2
+01:13:31  Warning: stat() failed for chunk file C:\ol_kg_mirror\rootdbs_dat_mirror.000
+01:13:31  Cannot Open Mirror Chunk 'C:\ol_kg_mirror\rootdbs_dat_mirror.000', errno = 2
+01:13:31  oninit: Fatal error in shared memory initialization
+
+01:13:31  IBM Informix Dynamic Server Stopped.
+
+01:17:24  IBM Informix Dynamic Server Started.
+01:17:24  Warning: The IBM IDS Developer Edition license restriction limits
+01:17:24  the total shared memory size for this server to 1048576 KB.
+01:17:24  The maximum allowable shared memory was reset to this size to start the database server. 
+01:17:24  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 01:17:24 2014
+
+01:17:24  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+01:17:24  Booting Language <c> from module <>
+01:17:24  Loading Module <CNULL>
+01:17:24  Booting Language <builtin> from module <>
+01:17:24  Loading Module <BUILTINNULL>
+01:17:30  DR: DRAUTO is 0 (Off)
+01:17:30  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+01:17:31  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+01:17:31  Value of FULL_DISK_INIT has been changed to 0.
+
+01:17:35  IBM Informix Dynamic Server Initialized -- Complete Disk Initialized.
+01:17:35  Started 1 B-tree scanners.
+01:17:35  B-tree scanner threshold set at 5000.
+01:17:35  B-tree scanner range scan size set to -1.
+01:17:35  B-tree scanner ALICE mode set to 6.
+01:17:35  B-tree scanner index compression level set to med.
+01:17:35  Dataskip is now OFF for all dbspaces
+01:17:35  Building 'sysmaster' database ...
+01:17:35  Checkpoint Completed:  duration was 0 seconds.
+01:17:35  Tue Jun 10 - loguniq 1, logpos 0x3a8, timestamp: 0xc1 Interval: 2
+
+01:17:35  Maximum server connections 0 
+01:17:35  Checkpoint Statistics - Avg. Txn Block Time 0.008, # Txns blocked 1, Plog used 4, Llog used 1
+
+01:17:35  On-Line Mode
+01:17:52  Booting Language <spl> from module <>
+01:17:52  Loading Module <SPLNULL>
+01:17:53  Unloading Module <SPLNULL>
+01:17:53  Performance Advisory: Based on the current workload, the logical log space might be too small to
+accommodate the time it takes to flush the buffer pool.
+01:17:53   Results: The server might block transactions during checkpoints.
+01:17:53   Action: If transactions are blocked during the checkpoint, increase the size of the
+ logical log space to at least 81340 KB.
+01:17:53  Performance Advisory: The logical log space is too small for automatic checkpoints.
+01:17:53   Results: Automatic checkpoints are disabled.
+01:17:53   Action: To enable automatic checkpoints, increase the logical log space to at least 81340
+ KB.
+01:17:53  Logical Log 1 Complete, timestamp: 0x10afb.
+01:17:54  Checkpoint Completed:  duration was 0 seconds.
+01:17:54  Tue Jun 10 - loguniq 2, logpos 0x19c018, timestamp: 0x10b24 Interval: 3
+
+01:17:54  Maximum server connections 1 
+01:17:54  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 11, Llog used 2912
+
+01:18:11  Checkpoint Completed:  duration was 0 seconds.
+01:18:11  Tue Jun 10 - loguniq 2, logpos 0x476018, timestamp: 0x15f5e Interval: 4
+
+01:18:11  Maximum server connections 1 
+01:18:11  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 136, Llog used 730
+
+01:18:28  Loading Module <SPLNULL>
+01:18:28  Unloading Module <SPLNULL>
+01:18:29  Checkpoint Completed:  duration was 0 seconds.
+01:18:29  Tue Jun 10 - loguniq 2, logpos 0x75b018, timestamp: 0x1b2fa Interval: 5
+
+01:18:29  Maximum server connections 1 
+01:18:29  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 96, Llog used 741
+
+01:18:30  Checkpoint Completed:  duration was 0 seconds.
+01:18:30  Tue Jun 10 - loguniq 2, logpos 0x75d018, timestamp: 0x1b302 Interval: 6
+
+01:18:30  Maximum server connections 1 
+01:18:30  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+01:18:31  'sysmaster' database built successfully.
+01:18:32  'sysutils' database built successfully.
+01:18:32  'sysuser' database built successfully.
+01:18:38  Init operation complete - Mode Online Initialized
+01:18:40  Building 'sysadmin' database ...
+01:18:41  Loading Module <SPLNULL>
+01:18:41  'sysadmin' database built successfully.
+01:18:41  Checkpoint Completed:  duration was 0 seconds.
+01:18:41  Tue Jun 10 - loguniq 3, logpos 0x455018, timestamp: 0x23bd0 Interval: 7
+
+01:18:41  Maximum server connections 1 
+01:18:41  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 1, Plog used 82, Llog used 1724
+
+01:18:41  SCHAPI: Started dbScheduler thread.
+01:18:41  Logical Log 2 Complete, timestamp: 0x23bd3.
+01:18:41  Auto Registration is synced
+01:18:41  SCHAPI: Started 2 dbWorker threads.
