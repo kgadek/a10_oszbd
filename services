@@ -124,3 +124,4 @@ dr_informix1170	 9089/tcp
 
 
 turbo	9092/tcp		#ol2014_kg
+turbo_alias	9094/tcp		#ol2014_kg_alias

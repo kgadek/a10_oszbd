@@ -204,8 +204,8 @@ ONDBSPACEDOWN 2
 
 SERVERNUM	1	# Unique id corresponding to a server instance
 DBSERVERNAME	ol2014_kg		# Name of default Dynamic Server
-DBSERVERALIASES			# List of alternate dbserver names
-FULL_DISK_INIT 1
+DBSERVERALIASES		ol2014_kg_alias	# List of alternate dbserver names
+FULL_DISK_INIT  0               
 
 ###################################################################
 # Network Configuration Parameters
