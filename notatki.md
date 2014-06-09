@@ -7,6 +7,12 @@ Tworzenie instancji
    * Plik tworzący rootdbs powinien znajdować się w katalogu c:\ol_xx_data (gdzie xx – twoje inicjały), rozmiar rootdbs 200 MB
    * Włącz mirroring dla rootdbs, pliki mirrorujące rootdbs powinny znajdować się w katalogu c:\ol_xx_mirror (gdzie xx – twoje inicjały)
    * (dopuszczalna jest konfiguracja pozostawiająca pliki tworzące rootdbs w domyślnym miejscu)
+
+	>> mkdir C:\ol_kg_data
+	>> mkdir C:\ol_kg_mirror
+	>> type nul >>C:\ol_kg_data\rootdbs_dat.000
+	>> type nul >>C:\ol_kg_mirror\rootdbs_dat_mirror.000
+
    * Skonfiguruj interfejs dla połączeń sieciowych dla portu 9092
    * Zweryfikuj poprawność utworzenia instancji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranów pokazujących rezultaty tych poleceń)
 

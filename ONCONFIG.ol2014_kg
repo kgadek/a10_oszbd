@@ -40,11 +40,11 @@
 ###################################################################
 
 ROOTNAME rootdbs
-ROOTPATH	C:\IFMXDATA\ol2014_kg\rootdbs_dat.000	# Path for device containing root dbspace
+ROOTPATH	C:\ol_kg_data\rootdbs_dat.000	# Path for device containing root dbspace
 ROOTOFFSET 0
 ROOTSIZE	204800		# Size of root dbspace (Kbytes)
-MIRROR		0		# Mirroring flag (Yes = 1, No = 0)
-MIRRORPATH		# Path for device containing mirrored root
+MIRROR		1		# Mirroring flag (Yes = 1, No = 0)
+MIRRORPATH	C:\ol_kg_mirror\rootdbs_dat_mirror.000	# Path for device containing mirrored root
 MIRROROFFSET 0
 
 ###################################################################
@@ -205,7 +205,7 @@ ONDBSPACEDOWN 2
 SERVERNUM	1	# Unique id corresponding to a server instance
 DBSERVERNAME	ol2014_kg		# Name of default Dynamic Server
 DBSERVERALIASES			# List of alternate dbserver names
-FULL_DISK_INIT 0
+FULL_DISK_INIT 1
 
 ###################################################################
 # Network Configuration Parameters
