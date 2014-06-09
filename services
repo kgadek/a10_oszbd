@@ -1,0 +1,126 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# Ten plik zawiera numery portów dla dobrze znanych us³ug zdefiniowane
+# w dokumencie IANA.
+#
+# Format:
+#
+# <nazwa us³ugi> <numer portu>/<protokól>  [alias...]   [#<komentarz>]
+#
+
+echo           	    7/tcp	                  
+echo           	    7/udp	                  
+discard        	    9/tcp	 sink null        
+discard        	    9/udp	 sink null        
+systat         	   11/tcp	 users            	#U¿ytkownicy aktywni
+systat         	   11/tcp	 users            	#U¿ytkownicy aktywni
+daytime        	   13/tcp	                  
+daytime        	   13/udp	                  
+qotd           	   17/tcp	 quote            	#Cytat dnia
+qotd           	   17/udp	 quote            	#Cytat dnia
+chargen        	   19/tcp	 ttytst source    	#Generator znaków
+chargen        	   19/udp	 ttytst source    	#Generator znaków
+ftp-data       	   20/tcp	                  	#FTP, dane
+ftp            	   21/tcp	                  	#FTP. control
+telnet         	   23/tcp	                  
+smtp           	   25/tcp	 mail             	#Simple Mail Transfer Protocol
+time           	   37/tcp	 timserver        
+time           	   37/udp	 timserver        
+rlp            	   39/udp	 resource         	#Protokó³ lokalizowania zasobów
+nameserver     	   42/tcp	 name             	#Serwer nazw hostów
+nameserver     	   42/udp	 name             	#Serwer nazw hostów
+nicname        	   43/tcp	 whois            
+domain         	   53/tcp	                  	#Serwer nazw domen
+domain         	   53/udp	                  	#Serwer nazw domen
+bootps         	   67/udp	 dhcps            	#Serwer protoko³u Bootstrap
+bootpc         	   68/udp	 dhcpc            	#Klient protoko³u Bootstrap
+tftp           	   69/udp	                  	#Trywialny transfer plików
+gopher         	   70/tcp	                  
+finger         	   79/tcp	                  
+http           	   80/tcp	 www www-http     	#Sieæ Web
+kerberos       	   88/tcp	 krb5 kerberos-sec	#Kerberos
+kerberos       	   88/udp	 krb5 kerberos-sec	#Kerberos
+hostname       	  101/tcp	 hostnames        	#Serwer nazw hostów NIC
+iso-tsap       	  102/tcp	                  	#ISO-TSAP klasy 0
+rtelnet        	  107/tcp	                  	#Us³uga zdalnego protoko³u Telnet
+pop2           	  109/tcp	 postoffice       	#Protokó³ urzêdu pocztowego - wersja 2
+pop3           	  110/tcp	                  	#Protokó³ urzêdu pocztowego - wersja 3
+sunrpc         	  111/tcp	 rpcbind portmap  	#Zdalne wywo³ywanie procedur SUN
+sunrpc         	  111/udp	 rpcbind portmap  	#Zdalne wywo³ywanie procedur SUN
+auth           	  113/tcp	 ident tap        	#Protokó³ identyfikacji
+uucp-path      	  117/tcp	                  
+nntp           	  119/tcp	 usenet           	#Protokó³ transferu wiadomoœci sieciowych
+ntp            	  123/udp	                  	#Protokó³ czasu sieciowgo
+epmap          	  135/tcp	 loc-srv          	#Rozpoznawanie punktów koñcowych DCE
+epmap          	  135/udp	 loc-srv          	#Rozpoznawanie punktów koñcowych DCE
+netbios-ns     	  137/tcp	 nbname           	#Us³uga nazw NETBIOS
+netbios-ns     	  137/udp	 nbname           	#Us³uga nazw NETBIOS
+netbios-dgm    	  138/udp	 nbdatagram       	#Us³uga datagramów NETBIOS
+netbios-ssn    	  139/tcp	 nbsession        	#Us³uga sesji NETBIOS
+imap           	  143/tcp	 imap4            	#Protokó³ dostêpu do wiadomoœci internetowych (IMAP)
+pcmail-srv     	  158/tcp	                  	#Serwer PCMail
+snmp           	  161/udp	                  	#SNMP
+snmptrap       	  162/udp	 snmp-trap        	#Pu³apka SNMP
+print-srv      	  170/tcp	                  	#PostScript sieciowy
+bgp            	  179/tcp	                  	#Protokó³ bram granicznych
+irc            	  194/tcp	                  	#Protokó³ Internet Relay Chat (IRC)        
+ipx            	  213/udp	                  	#IPX prze IP
+ldap           	  389/tcp	                  	#Lightweight Directory Access Protocol
+https          	  443/tcp	 MCom             
+https          	  443/udp	 MCom             
+microsoft-ds   	  445/tcp	                  
+microsoft-ds   	  445/udp	                  
+kpasswd        	  464/tcp	                  	# Kerberos (v5)
+kpasswd        	  464/udp	                  	# Kerberos (v5)
+isakmp         	  500/udp	 ike              	#Internetowa wymiana kluczy
+exec           	  512/tcp	                  	#Zdalne wykonywanie procesów
+biff           	  512/udp	 comsat           
+login          	  513/tcp	                  	#Logowanie zdalne
+who            	  513/udp	 whod             
+cmd            	  514/tcp	 shell            
+syslog         	  514/udp	                  
+printer        	  515/tcp	 spooler          
+talk           	  517/udp	                  
+ntalk          	  518/udp	                  
+efs            	  520/tcp	                  	#Rozszerzony serwer nazw plików
+router         	  520/udp	 route routed     
+timed          	  525/udp	 timeserver       
+tempo          	  526/tcp	 newdate          
+courier        	  530/tcp	 rpc              
+conference     	  531/tcp	 chat             
+netnews        	  532/tcp	 readnews         
+netwall        	  533/udp	                  	#Emisje awaryjne
+uucp           	  540/tcp	 uucpd            
+klogin         	  543/tcp	                  	#Logowanie Kerberos
+kshell         	  544/tcp	 krcmd            	#Zdalna pow³oka Kerberos
+new-rwho       	  550/udp	 new-who          
+remotefs       	  556/tcp	 rfs rfs_server   
+rmonitor       	  560/udp	 rmonitord        
+monitor        	  561/udp	                  
+ldaps          	  636/tcp	 sldap            	#LDAP przez TLS/SSL
+doom           	  666/tcp	                  	#Doom Id Software
+doom           	  666/udp	                  	#Doom Id Software
+kerberos-adm   	  749/tcp	                  	#Administracja Kerberos
+kerberos-adm   	  749/udp	                  	#Administracja Kerberos
+kerberos-iv    	  750/udp	                  	#Kerberos wersja IV
+kpop           	 1109/tcp	                  	#Kerberos POP
+phone          	 1167/udp	                  	#Wywo³ania konferencyjne
+ms-sql-s       	 1433/tcp	                  	#Microsoft-SQL-Server 
+ms-sql-s       	 1433/udp	                  	#Microsoft-SQL-Server 
+ms-sql-m       	 1434/tcp	                  	#Microsoft-SQL-Monitor
+ms-sql-m       	 1434/udp	                  	#Microsoft-SQL-Monitor                
+wins           	 1512/tcp	                  	#Microsoft Windows Internet Name Service
+wins           	 1512/udp	                  	#Microsoft Windows Internet Name Service
+ingreslock     	 1524/tcp	 ingres           
+l2tp           	 1701/udp	                  	#Protokó³ tunelowania warstwy drugiej
+pptp           	 1723/tcp	                  	#Protokó³ tunelowania Point-to-point
+radius         	 1812/udp	                  	#Protokó³ uwierzytelniania RADIUS
+radacct        	 1813/udp	                  	#Protokó³ kont RADIUS
+nfsd           	 2049/udp	 nfs              	#Serwer NFS
+knetd          	 2053/tcp	                  	#Protokó³ demultipleksowania Kerberos
+man            	 9535/tcp	                  	#Serwer zdalnej dokumentacji Man
+ol_informix1170	 9088/tcp	                  
+dr_informix1170	 9089/tcp	                  
+
+
+turbo	9092/tcp		#ol2014_kg
