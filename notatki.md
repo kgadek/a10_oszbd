@@ -19,6 +19,10 @@ Tworzenie instancji
 Konfiguracja połączeń
 
    * Skonfiguruj dodatkowy interfejs dla połączeń sieciowych dla poru 9094
+
+	>> onmode -ky
+	>> starts ol2014_kg
+
    * Zweryfikuj czy serwer jest w trybie online, jeśli nie to przejdź do trybu online. (wykonaj odpowiednie polecenie, umieść w sprawozdaniu zrzut ekranu pokazujący rezultat tego polecenia)
    * Zweryfikuj możliwość połączenia przy pomocy obu skonfigurowanych interfejsów sieciowych (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
 
