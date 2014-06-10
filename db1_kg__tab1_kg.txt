@@ -1,0 +1,126 @@
+
+
+TBLspace Report for db1_kg:informix.tab1_kg
+
+    Physical Address               2:526
+    Creation date                  06/10/2014 04:11:15
+    TBLspace Flags                 801        Page Locking
+                                              TBLspace use 4 bit bit-maps
+    Maximum row size               1204      
+    Number of special columns      0         
+    Number of keys                 0         
+    Number of extents              6         
+    Current serial value           1         
+    Current SERIAL8 value          1         
+    Current BIGSERIAL value        1         
+    Current REFID value            1         
+    Pagesize (k)                   4         
+    First extent size              8         
+    Next extent size               1024      
+    Number of pages allocated      10240     
+    Number of pages used           10002     
+    Number of data pages           10000     
+    Number of rows                 30000     
+    Partition partnum              2097219   
+    Partition lockid               2097219   
+
+    Extents                       
+         Logical Page     Physical Page        Size Physical Pages
+                    0            2:1075         256        256
+                  256            2:1335         384        384
+                  640            2:1727         896        896
+                 1536            2:2639        2048       2048
+                 3584            2:4719        3584       3584
+                 7168            2:8367        3072       3072
+
+
+TBLspace Usage Report for db1_kg:informix.tab1_kg
+
+    Type                  Pages      Empty  Semi-Full       Full  Very-Full
+    ---------------- ---------- ---------- ---------- ---------- ----------
+    Free                    238
+    Bit-Map                   2
+    Index                     0
+    Data (Home)           10000
+                     ----------
+    Total Pages           10240
+
+    Unused Space Summary
+
+        Unused data slots                                 0
+        Unused bytes per data page                      444
+        Total unused bytes in data pages            4440000
+
+    Home Data Page Version Summary
+
+                 Version                                 Count
+
+                       0 (current)                      10000
+
+		  Index  100_1 fragment partition danekg1 in DBspace danekg1
+
+    Physical Address               2:527
+    Creation date                  06/10/2014 04:11:15
+    TBLspace Flags                 801        Page Locking
+                                              TBLspace use 4 bit bit-maps
+    Maximum row size               1204      
+    Number of special columns      0         
+    Number of keys                 1         
+    Number of extents              6         
+    Current serial value           1         
+    Current SERIAL8 value          1         
+    Current BIGSERIAL value        1         
+    Current REFID value            1         
+    Pagesize (k)                   4         
+    First extent size              4         
+    Next extent size               128       
+    Number of pages allocated      128       
+    Number of pages used           99        
+    Number of data pages           0         
+    Number of rows                 0         
+    Partition partnum              2097220   
+    Partition lockid               2097219   
+
+    Extents                       
+         Logical Page     Physical Page        Size Physical Pages
+                    0            2:1071           4          4
+                    4            2:1331           4          4
+                    8            2:1719           8          8
+                   16            2:2623          16         16
+                   32            2:4687          32         32
+                   64            2:8303          64         64
+
+
+TBLspace Usage Report for db1_kg:informix.tab1_kg
+
+    Type                  Pages      Empty  Semi-Full       Full  Very-Full
+    ---------------- ---------- ---------- ---------- ---------- ----------
+    Free                     29
+    Bit-Map                   1
+    Index                    98
+    Data (Home)               0
+                     ----------
+    Total Pages             128
+
+    Unused Space Summary
+
+        Unused data slots                                 0
+        Unused bytes per data page                      444
+        Total unused bytes in data pages                  0
+
+    Home Data Page Version Summary
+
+                 Version                                 Count
+
+                       0 (current)                          0
+
+Index Usage Report for index  100_1 on db1_kg:informix.tab1_kg
+
+                    Average    Average
+    Level    Total No. Keys Free Bytes
+    ----- -------- -------- ----------
+        1        1       97       2908
+        2       97      309         47
+    ----- -------- -------- ----------
+    Total       98      307         76
+

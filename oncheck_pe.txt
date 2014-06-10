@@ -1,0 +1,736 @@
+
+
+DBspace Usage Report: rootdbs             Owner: informix  Created: 06/10/2014
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     1 C:\ol_kg_data\rootdbs_dat.000                  4    51200     5278    45922
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0       12
+ CHUNK FREELIST PAGE                                                 12        1
+ rootdbs:'informix'.TBLSpace                                         13      250
+ FREE                                                               263    27500
+ sysmaster:'informix'.sysdatabases                                27763        4
+ system:'informix'.syslicenseinfo                                 27767       16
+ sysmaster:'informix'.systables                                   27783        8
+ sysmaster:'informix'.syscolumns                                  27791       16
+ sysmaster:'informix'.sysindices                                  27807       64
+ sysmaster:'informix'.systabauth                                  27871        8
+ sysmaster:'informix'.syscolauth                                  27879        8
+ sysmaster:'informix'.sysviews                                    27887        8
+ sysmaster:'informix'.sysusers                                    27895        8
+ sysmaster:'informix'.sysdepend                                   27903        8
+ sysmaster:'informix'.syssynonyms                                 27911        8
+ sysmaster:'informix'.syssyntable                                 27919        8
+ sysmaster:'informix'.sysconstraints                              27927        8
+ sysmaster:'informix'.sysreferences                               27935        8
+ sysmaster:'informix'.syschecks                                   27943        8
+ sysmaster:'informix'.sysdefaults                                 27951        8
+ sysmaster:'informix'.syscoldepend                                27959        8
+ sysmaster:'informix'.sysprocedures                               27967        8
+ sysmaster:'informix'.sysprocbody                                 27975        8
+ sysmaster:'informix'.sysprocplan                                 27983        8
+ sysmaster:'informix'.sysprocauth                                 27991        8
+ sysmaster:'informix'.sysblobs                                    27999        8
+ sysmaster:'informix'.sysopclstr                                  28007        8
+ sysmaster:'informix'.systriggers                                 28015        8
+ sysmaster:'informix'.systrigbody                                 28023        8
+ sysmaster:'informix'.sysdistrib                                  28031        8
+ sysmaster:'informix'.sysfragments                                28039        8
+ sysmaster:'informix'.sysfragauth                                 28047        8
+ sysmaster:'informix'.sysxtdtypes                                 28055        8
+ sysmaster:'informix'.sysxtddesc                                  28063        8
+ sysmaster:'informix'.sysattrtypes                                28071        8
+ sysmaster:'informix'.sysinherits                                 28079        8
+ sysmaster:'informix'.syscolattribs                               28087        8
+ sysmaster:'informix'.syslogmap                                   28095        8
+ sysmaster:'informix'.syscasts                                    28103       16
+ sysmaster:'informix'.sysxtdtypeauth                              28119        8
+ sysmaster:'informix'.sysams                                      28127        8
+ sysmaster:'informix'.systabamdata                                28135        8
+ sysmaster:'informix'.sysopclasses                                28143        8
+ sysmaster:'informix'.syserrors                                   28151        8
+ sysmaster:'informix'.systraceclasses                             28159        8
+ sysmaster:'informix'.systracemsgs                                28167        8
+ sysmaster:'informix'.sysroutinelangs                             28175        8
+ sysmaster:'informix'.syslangauth                                 28183        8
+ sysmaster:'informix'.sysaggregates                               28191        8
+ sysmaster:'informix'.sysroleauth                                 28199        8
+ sysmaster:'informix'.sysobjstate                                 28207        8
+ sysmaster:'informix'.sysviolations                               28215        8
+ sysmaster:'informix'.syssequences                                28223        8
+ sysmaster:'informix'.sysdirectives                               28231        8
+ sysmaster:'informix'.sysxasourcetypes                            28239        8
+ sysmaster:'informix'.sysxadatasources                            28247        8
+ sysmaster:'informix'.sysseclabelcomponents                       28255        8
+ sysmaster:'informix'.sysseclabelcomponentelements                28263        8
+ sysmaster:'informix'.syssecpolicies                              28271        8
+ sysmaster:'informix'.syssecpolicycomponents                      28279        8
+ sysmaster:'informix'.syssecpolicyexemptions                      28287        8
+ sysmaster:'informix'.sysseclabels                                28295        8
+ sysmaster:'informix'.sysseclabelnames                            28303        8
+ sysmaster:'informix'.sysseclabelauth                             28311        8
+ sysmaster:'informix'.syssurrogateauth                            28319        8
+ sysmaster:'informix'.sysproccolumns                              28327        8
+ sysmaster:'informix'.sysexternal                                 28335        8
+ sysmaster:'informix'.sysextdfiles                                28343        8
+ sysmaster:'informix'.sysextcols                                  28351        8
+ sysmaster:'informix'.sysautolocate                               28359        8
+ sysmaster:'informix'.sysfragdist                                 28367        8
+ sysmaster:'informix'.sysprocbody                                 28375        8
+ sysmaster:'informix'.sysprocedures                               28383        8
+ sysmaster:'informix'.sysprocbody                                 28391       16
+ sysmaster:'informix'.sysprocauth                                 28407        8
+ sysmaster:'informix'.sysprocbody                                 28415       32
+ sysmaster:'informix'.sysprocedures                               28447       16
+ sysmaster:'informix'.sysprocbody                                 28463       64
+ sysmaster:'informix'.sysproccolumns                              28527        8
+ sysmaster:'informix'.sysprocedures                               28535       32
+ sysmaster:'informix'.sysprocauth                                 28567       16
+ sysmaster:'informix'.sysprocbody                                 28583      128
+ sysmaster:'informix'.sysprocplan                                 28711        8
+ sysmaster:'informix'.sysproccolumns                              28719       16
+ sysmaster:'informix'.sysprocplan                                 28735       16
+ sysmaster:'informix'.flags_text                                  28751        8
+ sysmaster:'informix'.flags_text_ix1                              28759       16
+ sysmaster:'informix'.flags_text                                  28775        8
+ sysmaster:'informix'.flags_text_ix1                              28783       16
+ sysmaster:'informix'.smi_build_status                            28799        8
+ sysmaster:'informix'.logmessage                                  28807        8
+ sysmaster:'informix'.sysaudit                                    28815        8
+ sysmaster:'informix'.syscolauth                                  28823        8
+ sysmaster:'informix'.sysviews                                    28831        8
+ sysmaster:'informix'.sysextspaces                                28839        8
+ sysutils:'informix'.systables                                    28847        8
+ sysutils:'informix'.syscolumns                                   28855       16
+ sysutils:'informix'.sysindices                                   28871       27
+ sysmaster:'informix'.systables                                   28898       24
+ sysutils:'informix'.sysindices                                   28922       32
+ sysutils:'informix'.systabauth                                   28954        8
+ FREE                                                             28962        3
+ sysmaster:'informix'.syscolumns                                  28965       16
+ sysutils:'informix'.syscolauth                                   28981        8
+ sysutils:'informix'.sysviews                                     28989        8
+ sysutils:'informix'.sysusers                                     28997        8
+ sysutils:'informix'.sysdepend                                    29005        8
+ sysutils:'informix'.syssynonyms                                  29013        8
+ sysutils:'informix'.syssyntable                                  29021        8
+ sysutils:'informix'.sysconstraints                               29029        8
+ sysmaster:'informix'.systabauth                                  29037       24
+ sysutils:'informix'.sysreferences                                29061        8
+ sysutils:'informix'.syschecks                                    29069        8
+ sysutils:'informix'.sysdefaults                                  29077        8
+ sysutils:'informix'.syscoldepend                                 29085        8
+ sysutils:'informix'.sysprocedures                                29093        8
+ sysutils:'informix'.sysprocbody                                  29101        8
+ sysutils:'informix'.sysprocplan                                  29109        8
+ sysutils:'informix'.sysprocauth                                  29117        8
+ sysutils:'informix'.sysblobs                                     29125        8
+ sysutils:'informix'.sysopclstr                                   29133        8
+ sysutils:'informix'.systriggers                                  29141        8
+ sysutils:'informix'.systrigbody                                  29149        8
+ sysutils:'informix'.sysdistrib                                   29157        8
+ sysutils:'informix'.sysfragments                                 29165        8
+ sysutils:'informix'.sysfragauth                                  29173        8
+ sysutils:'informix'.sysxtdtypes                                  29181        8
+ sysutils:'informix'.sysxtddesc                                   29189        8
+ sysutils:'informix'.sysattrtypes                                 29197        8
+ sysutils:'informix'.sysinherits                                  29205        8
+ sysutils:'informix'.syscolattribs                                29213        8
+ sysutils:'informix'.syslogmap                                    29221        8
+ sysutils:'informix'.syscasts                                     29229       16
+ sysutils:'informix'.sysxtdtypeauth                               29245        8
+ sysutils:'informix'.sysams                                       29253        8
+ sysutils:'informix'.systabamdata                                 29261        8
+ sysutils:'informix'.sysopclasses                                 29269        8
+ sysutils:'informix'.syserrors                                    29277        8
+ sysutils:'informix'.systraceclasses                              29285        8
+ sysutils:'informix'.systracemsgs                                 29293        8
+ sysutils:'informix'.sysroutinelangs                              29301        8
+ sysutils:'informix'.syslangauth                                  29309        8
+ sysutils:'informix'.sysaggregates                                29317        8
+ sysutils:'informix'.sysroleauth                                  29325        8
+ sysutils:'informix'.sysobjstate                                  29333        8
+ sysutils:'informix'.sysviolations                                29341        8
+ sysutils:'informix'.syssequences                                 29349        8
+ sysutils:'informix'.sysdirectives                                29357        8
+ sysutils:'informix'.sysxasourcetypes                             29365        8
+ sysutils:'informix'.sysxadatasources                             29373        8
+ sysutils:'informix'.sysseclabelcomponents                        29381        8
+ sysutils:'informix'.sysseclabelcomponentelements                 29389        8
+ sysutils:'informix'.syssecpolicies                               29397        8
+ sysutils:'informix'.syssecpolicycomponents                       29405        8
+ sysutils:'informix'.syssecpolicyexemptions                       29413        8
+ sysutils:'informix'.sysseclabels                                 29421        8
+ sysutils:'informix'.sysseclabelnames                             29429        8
+ sysutils:'informix'.sysseclabelauth                              29437        8
+ sysutils:'informix'.syssurrogateauth                             29445        8
+ sysutils:'informix'.sysproccolumns                               29453        8
+ sysutils:'informix'.sysexternal                                  29461        8
+ sysutils:'informix'.sysextdfiles                                 29469        8
+ sysutils:'informix'.sysextcols                                   29477        8
+ sysutils:'informix'.sysautolocate                                29485        8
+ sysutils:'informix'.sysfragdist                                  29493        8
+ sysutils:'informix'.sysprocbody                                  29501        8
+ sysutils:'informix'.sysprocedures                                29509        8
+ sysutils:'informix'.sysprocbody                                  29517       16
+ sysutils:'informix'.sysprocauth                                  29533        8
+ sysutils:'informix'.sysprocbody                                  29541       32
+ sysutils:'informix'.sysprocedures                                29573       16
+ sysutils:'informix'.sysproccolumns                               29589        8
+ sysutils:'informix'.sysprocauth                                  29597       16
+ FREE                                                             29613        2
+ sysmaster:'informix'.sysindices                                  29615       64
+ sysutils:'informix'.sysprocplan                                  29679        8
+ sysutils:'informix'.sysproccolumns                               29687       16
+ sysutils:'informix'. 100_1                                       29703        4
+ sysmaster:'informix'.syscolumns                                  29707       32
+ sysutils:'informix'.sysprocbody                                  29739       64
+ sysutils:'informix'.sysprocedures                                29803       32
+ sysutils:'informix'.sysprocplan                                  29835       16
+ sysutils:'informix'.bar_server                                   29851        8
+ sysutils:'informix'.bar_object                                   29859        8
+ sysutils:'informix'. 101_4                                       29867        4
+ sysutils:'informix'.bar_obj_idx                                  29871        8
+ sysutils:'informix'.bar_action                                   29879        8
+ sysutils:'informix'. 102_9                                       29887        4
+ sysutils:'informix'. 102_10                                      29891        4
+ sysutils:'informix'.bar_act_idx                                  29895        4
+ sysutils:'informix'.bar_instance                                 29899        8
+ sysutils:'informix'. 103_14                                      29907        4
+ sysmaster:'informix'.sysfragments                                29911        8
+ sysutils:'informix'.sysprocbody                                  29919      128
+ sysutils:'informix'.ins_aid_idx                                  30047        4
+ sysutils:'informix'.bar_inst_idx                                 30051        4
+ sysutils:'informix'.bar_inst_idx2                                30055        4
+ sysutils:'informix'.bar_ordertab                                 30059        8
+ sysadmin:'informix'.ix_cmd_hist_01                               30067        4
+ rootdbs:'informix'.TBLSpace                                      30071       50
+ sysutils:'informix'.bar_orderseq                                 30121        8
+ sysuser:'informix'.systables                                     30129        8
+ sysuser:'informix'.syscolumns                                    30137       16
+ sysuser:'informix'.sysindices                                    30153       64
+ sysuser:'informix'.systabauth                                    30217        8
+ sysuser:'informix'.syscolauth                                    30225        8
+ sysuser:'informix'.sysviews                                      30233        8
+ sysuser:'informix'.sysusers                                      30241        8
+ sysuser:'informix'.sysdepend                                     30249        8
+ sysuser:'informix'.syssynonyms                                   30257        8
+ sysuser:'informix'.syssyntable                                   30265        8
+ sysuser:'informix'.sysconstraints                                30273        8
+ sysuser:'informix'.sysreferences                                 30281        8
+ sysuser:'informix'.syschecks                                     30289        8
+ sysuser:'informix'.sysdefaults                                   30297        8
+ sysuser:'informix'.syscoldepend                                  30305        8
+ sysuser:'informix'.sysprocedures                                 30313        8
+ sysuser:'informix'.sysprocbody                                   30321        8
+ sysuser:'informix'.sysprocplan                                   30329        8
+ sysuser:'informix'.sysprocauth                                   30337        8
+ sysuser:'informix'.sysblobs                                      30345        8
+ sysuser:'informix'.sysopclstr                                    30353        8
+ sysuser:'informix'.systriggers                                   30361        8
+ sysuser:'informix'.systrigbody                                   30369        8
+ sysuser:'informix'.sysdistrib                                    30377        8
+ sysuser:'informix'.sysfragments                                  30385        8
+ sysuser:'informix'.sysfragauth                                   30393        8
+ sysuser:'informix'.sysxtdtypes                                   30401        8
+ sysuser:'informix'.sysxtddesc                                    30409        8
+ sysuser:'informix'.sysattrtypes                                  30417        8
+ sysuser:'informix'.sysinherits                                   30425        8
+ sysuser:'informix'.syscolattribs                                 30433        8
+ sysuser:'informix'.syslogmap                                     30441        8
+ sysuser:'informix'.syscasts                                      30449       16
+ sysuser:'informix'.sysxtdtypeauth                                30465        8
+ sysuser:'informix'.sysams                                        30473        8
+ sysuser:'informix'.systabamdata                                  30481        8
+ sysuser:'informix'.sysopclasses                                  30489        8
+ sysuser:'informix'.syserrors                                     30497        8
+ sysuser:'informix'.systraceclasses                               30505        8
+ sysuser:'informix'.systracemsgs                                  30513        8
+ sysuser:'informix'.sysroutinelangs                               30521        8
+ sysuser:'informix'.syslangauth                                   30529        8
+ sysuser:'informix'.sysaggregates                                 30537        8
+ sysuser:'informix'.sysroleauth                                   30545        8
+ sysuser:'informix'.sysobjstate                                   30553        8
+ sysuser:'informix'.sysviolations                                 30561        8
+ sysuser:'informix'.syssequences                                  30569        8
+ sysuser:'informix'.sysdirectives                                 30577        8
+ sysuser:'informix'.sysxasourcetypes                              30585        8
+ sysuser:'informix'.sysxadatasources                              30593        8
+ sysuser:'informix'.sysseclabelcomponents                         30601        8
+ sysuser:'informix'.sysseclabelcomponentelements                  30609        8
+ sysuser:'informix'.syssecpolicies                                30617        8
+ sysuser:'informix'.syssecpolicycomponents                        30625        8
+ sysuser:'informix'.syssecpolicyexemptions                        30633        8
+ sysuser:'informix'.sysseclabels                                  30641        8
+ sysuser:'informix'.sysseclabelnames                              30649        8
+ sysuser:'informix'.sysseclabelauth                               30657        8
+ sysuser:'informix'.syssurrogateauth                              30665        8
+ sysuser:'informix'.sysproccolumns                                30673        8
+ sysuser:'informix'.sysexternal                                   30681        8
+ sysuser:'informix'.sysextdfiles                                  30689        8
+ sysuser:'informix'.sysextcols                                    30697        8
+ sysuser:'informix'.sysautolocate                                 30705        8
+ sysuser:'informix'.sysfragdist                                   30713        8
+ sysuser:'informix'.sysprocbody                                   30721        8
+ sysuser:'informix'.sysprocedures                                 30729        8
+ sysuser:'informix'.sysprocbody                                   30737       16
+ sysuser:'informix'.sysprocauth                                   30753        8
+ sysuser:'informix'.sysprocbody                                   30761       32
+ sysuser:'informix'.sysprocedures                                 30793       16
+ sysuser:'informix'.sysprocbody                                   30809       64
+ sysuser:'informix'.sysproccolumns                                30873        8
+ sysuser:'informix'.sysprocedures                                 30881       32
+ sysuser:'informix'.sysprocauth                                   30913       16
+ sysuser:'informix'.sysprocbody                                   30929      128
+ sysuser:'informix'.sysprocplan                                   31057        8
+ sysuser:'informix'.sysproccolumns                                31065       16
+ sysuser:'informix'.sysprocplan                                   31081       16
+ sysuser:'informix'.sysauth                                       31097        8
+ sysuser:'informix'.sysdbsecadmauth                               31105        8
+ sysuser:'informix'.syssurrogates                                 31113        8
+ sysuser:'informix'.sysusermap                                    31121        8
+ sysuser:'informix'.syssurrogategroups                            31129        8
+ sysuser:'informix'.sysintauthusers                               31137        8
+ sysuser:'informix'.systrustedcontext                             31145        8
+ sysuser:'informix'.systcxattributes                              31153        8
+ sysuser:'informix'.systcxusers                                   31161        8
+ sysadmin:'informix'.systables                                    31169        8
+ sysadmin:'informix'.syscolumns                                   31177       16
+ sysadmin:'informix'.sysindices                                   31193       64
+ sysadmin:'informix'.systabauth                                   31257        8
+ sysadmin:'informix'.syscolauth                                   31265        8
+ sysadmin:'informix'.sysviews                                     31273        8
+ sysadmin:'informix'.sysusers                                     31281        8
+ sysadmin:'informix'.sysdepend                                    31289        8
+ sysadmin:'informix'.syssynonyms                                  31297        8
+ sysadmin:'informix'.syssyntable                                  31305        8
+ sysadmin:'informix'.sysconstraints                               31313        8
+ sysadmin:'informix'.sysreferences                                31321        8
+ sysadmin:'informix'.syschecks                                    31329        8
+ sysadmin:'informix'.sysdefaults                                  31337        8
+ sysadmin:'informix'.syscoldepend                                 31345        8
+ sysadmin:'informix'.sysprocedures                                31353        8
+ sysadmin:'informix'.sysprocbody                                  31361        8
+ sysadmin:'informix'.sysprocplan                                  31369        8
+ sysadmin:'informix'.sysprocauth                                  31377        8
+ sysadmin:'informix'.sysblobs                                     31385        8
+ sysadmin:'informix'.sysopclstr                                   31393        8
+ sysadmin:'informix'.systriggers                                  31401        8
+ sysadmin:'informix'.systrigbody                                  31409        8
+ sysadmin:'informix'.sysdistrib                                   31417        8
+ sysadmin:'informix'.sysfragments                                 31425        8
+ sysadmin:'informix'.sysfragauth                                  31433        8
+ sysadmin:'informix'.sysxtdtypes                                  31441        8
+ sysadmin:'informix'.sysxtddesc                                   31449        8
+ sysadmin:'informix'.sysattrtypes                                 31457        8
+ sysadmin:'informix'.sysinherits                                  31465        8
+ sysadmin:'informix'.syscolattribs                                31473        8
+ sysadmin:'informix'.syslogmap                                    31481        8
+ sysadmin:'informix'.syscasts                                     31489       16
+ sysadmin:'informix'.sysxtdtypeauth                               31505        8
+ sysadmin:'informix'.sysams                                       31513        8
+ sysadmin:'informix'.systabamdata                                 31521        8
+ sysadmin:'informix'.sysopclasses                                 31529        8
+ sysadmin:'informix'.syserrors                                    31537        8
+ sysadmin:'informix'.systraceclasses                              31545        8
+ sysadmin:'informix'.systracemsgs                                 31553        8
+ sysadmin:'informix'.sysroutinelangs                              31561        8
+ sysadmin:'informix'.syslangauth                                  31569        8
+ sysadmin:'informix'.sysaggregates                                31577        8
+ sysadmin:'informix'.sysroleauth                                  31585        8
+ sysadmin:'informix'.sysobjstate                                  31593        8
+ sysadmin:'informix'.sysviolations                                31601        8
+ sysadmin:'informix'.syssequences                                 31609        8
+ sysadmin:'informix'.sysdirectives                                31617        8
+ sysadmin:'informix'.sysxasourcetypes                             31625        8
+ sysadmin:'informix'.sysxadatasources                             31633        8
+ sysadmin:'informix'.sysseclabelcomponents                        31641        8
+ sysadmin:'informix'.sysseclabelcomponentelements                 31649        8
+ sysadmin:'informix'.syssecpolicies                               31657        8
+ sysadmin:'informix'.syssecpolicycomponents                       31665        8
+ sysadmin:'informix'.syssecpolicyexemptions                       31673        8
+ sysadmin:'informix'.sysseclabels                                 31681        8
+ sysadmin:'informix'.sysseclabelnames                             31689        8
+ sysadmin:'informix'.sysseclabelauth                              31697        8
+ sysadmin:'informix'.syssurrogateauth                             31705        8
+ sysadmin:'informix'.sysproccolumns                               31713        8
+ sysadmin:'informix'.sysexternal                                  31721        8
+ sysadmin:'informix'.sysextdfiles                                 31729        8
+ sysadmin:'informix'.sysextcols                                   31737        8
+ sysadmin:'informix'.sysautolocate                                31745        8
+ sysadmin:'informix'.sysfragdist                                  31753        8
+ sysadmin:'informix'.sysprocbody                                  31761        8
+ sysadmin:'informix'.sysprocedures                                31769        8
+ sysadmin:'informix'.sysprocbody                                  31777       16
+ sysadmin:'informix'.sysprocauth                                  31793        8
+ sysadmin:'informix'.sysprocbody                                  31801       32
+ sysadmin:'informix'.sysprocedures                                31833       16
+ sysadmin:'informix'.sysprocbody                                  31849       64
+ sysadmin:'informix'.sysproccolumns                               31913        8
+ sysadmin:'informix'.sysprocedures                                31921       32
+ sysadmin:'informix'.sysprocauth                                  31953       16
+ sysadmin:'informix'.sysprocbody                                  31969      128
+ sysadmin:'informix'.sysprocplan                                  32097        8
+ sysadmin:'informix'.sysproccolumns                               32105       16
+ sysadmin:'informix'.sysprocplan                                  32121       16
+ sysadmin:'informix'.sysprocedures                                32137       64
+ sysadmin:'informix'.command_history                              32201        8
+ sysadmin:'informix'.ix_cmd_hist_02                               32209        4
+ sysadmin:'informix'.ph_group                                     32213        8
+ sysadmin:'informix'.ix_ph_group_01                               32221        4
+ rootdbs:'informix'.TBLSpace                                      32225      100
+ sysadmin:'informix'.ix_ph_group_02                               32325        4
+ sysadmin:'informix'.ph_task                                      32329        8
+ sysadmin:'informix'. 102_4                                       32337        4
+ sysadmin:'informix'.ix_ph_task_01                                32341        4
+ sysadmin:'informix'.ix_ph_task_02                                32345        4
+ sysadmin:'informix'.ix_ph_task_03                                32349        4
+ sysadmin:'informix'.ph_run                                       32353        8
+ sysadmin:'informix'.ix_ph_run_01                                 32361        4
+ sysadmin:'informix'.ix_ph_run_02                                 32365        4
+ sysadmin:'informix'.ix_ph_run_03                                 32369        4
+ sysadmin:'informix'.ph_alert                                     32373        8
+ sysadmin:'informix'.ix_ph_alert_01                               32381        4
+ sysadmin:'informix'.ix_ph_alert_02                               32385        4
+ sysadmin:'informix'.ph_threshold                                 32389        8
+ sysadmin:'informix'.ix_ph_threshold_01                           32397        4
+ sysadmin:'informix'.ix_ph_threshold_02                           32401        4
+ sysadmin:'informix'.ph_bg_jobs                                   32405        8
+ sysadmin:'informix'.ph_bg_jobs_ix1                               32413        4
+ sysadmin:'informix'.ph_bg_jobs_ix2                               32417        4
+ sysadmin:'informix'.ph_bg_jobs_ix3                               32421        4
+ sysadmin:'informix'.ph_bg_jobs_results                           32425        8
+ sysadmin:'informix'.ph_bg_jobs_results_ix1                       32433        4
+ sysadmin:'informix'.ph_bg_jobs_results_ix2                       32437        4
+ sysadmin:'informix'.ph_bg_jobs_seq                               32441        8
+ sysadmin:'informix'.ph_version                                   32449        8
+ sysadmin:'informix'.systables                                    32457        8
+ sysadmin:'informix'.ph_version_ix1                               32465        8
+ sysadmin:'informix'.storagepool                                  32473        8
+ sysadmin:'informix'.ix_storagepool_1                             32481        4
+ sysadmin:'informix'.sysprocbody                                  32485      128
+ sysadmin:'informix'.sysprocplan                                  32613       96
+ sysadmin:'informix'.mon_users                                    32709        8
+ sysadmin:'informix'.mon_table_profile                            32717        8
+ sysadmin:'informix'.mon_vps                                      32725        8
+ sysadmin:'informix'.mon_memory_system                            32733        8
+ sysadmin:'informix'.mon_checkpoint                               32741        8
+ sysadmin:'informix'.idx_mon_ckpt_1                               32749        4
+ sysadmin:'informix'.mon_prof                                     32753        8
+ sysadmin:'informix'.mon_prof_idx1                                32761        6
+ sysadmin:'informix'.mon_sysenv                                   32767        8
+ sysadmin:'informix'.mon_config                                   32775        8
+ FREE                                                             32783    18417
+
+ Total Used:     5278
+ Total Free:    45922
+
+
+
+DBspace Usage Report: danekg1             Owner: informix  Created: 06/10/2014
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     2 C:\ol_kg_data\danekg1_1.000                    4    12800    11439     1361
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ danekg1:'informix'.TBLSpace                                          3       50
+ db1_kg:'informix'.systables                                         53        8
+ db1_kg:'informix'.syscolumns                                        61       16
+ db1_kg:'informix'.sysindices                                        77       64
+ db1_kg:'informix'.systabauth                                       141        8
+ db1_kg:'informix'.syscolauth                                       149        8
+ db1_kg:'informix'.sysviews                                         157        8
+ db1_kg:'informix'.sysusers                                         165        8
+ db1_kg:'informix'.sysdepend                                        173        8
+ db1_kg:'informix'.syssynonyms                                      181        8
+ db1_kg:'informix'.syssyntable                                      189        8
+ db1_kg:'informix'.sysconstraints                                   197        8
+ db1_kg:'informix'.sysreferences                                    205        8
+ db1_kg:'informix'.syschecks                                        213        8
+ db1_kg:'informix'.sysdefaults                                      221        8
+ db1_kg:'informix'.syscoldepend                                     229        8
+ db1_kg:'informix'.sysprocedures                                    237        8
+ db1_kg:'informix'.sysprocbody                                      245        8
+ db1_kg:'informix'.sysprocplan                                      253        8
+ db1_kg:'informix'.sysprocauth                                      261        8
+ db1_kg:'informix'.sysblobs                                         269        8
+ db1_kg:'informix'.sysopclstr                                       277        8
+ db1_kg:'informix'.systriggers                                      285        8
+ db1_kg:'informix'.systrigbody                                      293        8
+ db1_kg:'informix'.sysdistrib                                       301        8
+ db1_kg:'informix'.sysfragments                                     309        8
+ db1_kg:'informix'.sysfragauth                                      317        8
+ db1_kg:'informix'.sysxtdtypes                                      325        8
+ db1_kg:'informix'.sysxtddesc                                       333        8
+ db1_kg:'informix'.sysattrtypes                                     341        8
+ db1_kg:'informix'.sysinherits                                      349        8
+ db1_kg:'informix'.syscolattribs                                    357        8
+ db1_kg:'informix'.syslogmap                                        365        8
+ db1_kg:'informix'.syscasts                                         373       16
+ db1_kg:'informix'.sysxtdtypeauth                                   389        8
+ db1_kg:'informix'.sysams                                           397        8
+ db1_kg:'informix'.systabamdata                                     405        8
+ db1_kg:'informix'.sysopclasses                                     413        8
+ db1_kg:'informix'.syserrors                                        421        8
+ db1_kg:'informix'.systraceclasses                                  429        8
+ db1_kg:'informix'.systracemsgs                                     437        8
+ db1_kg:'informix'.sysroutinelangs                                  445        8
+ db1_kg:'informix'.syslangauth                                      453        8
+ db1_kg:'informix'.sysaggregates                                    461        8
+ db1_kg:'informix'.sysroleauth                                      469        8
+ db1_kg:'informix'.sysobjstate                                      477        8
+ db1_kg:'informix'.sysviolations                                    485        8
+ db1_kg:'informix'.syssequences                                     493        8
+ db1_kg:'informix'.sysdirectives                                    501        8
+ danekg1:'informix'.TBLSpace                                        509       50
+ db1_kg:'informix'.sysxasourcetypes                                 559        8
+ db1_kg:'informix'.sysxadatasources                                 567        8
+ db1_kg:'informix'.sysseclabelcomponents                            575        8
+ db1_kg:'informix'.sysseclabelcomponentelements                     583        8
+ db1_kg:'informix'.syssecpolicies                                   591        8
+ db1_kg:'informix'.syssecpolicycomponents                           599        8
+ db1_kg:'informix'.syssecpolicyexemptions                           607        8
+ db1_kg:'informix'.sysseclabels                                     615        8
+ db1_kg:'informix'.sysseclabelnames                                 623        8
+ db1_kg:'informix'.sysseclabelauth                                  631        8
+ db1_kg:'informix'.syssurrogateauth                                 639        8
+ db1_kg:'informix'.sysproccolumns                                   647        8
+ db1_kg:'informix'.sysexternal                                      655        8
+ db1_kg:'informix'.sysextdfiles                                     663        8
+ db1_kg:'informix'.sysextcols                                       671        8
+ db1_kg:'informix'.sysautolocate                                    679        8
+ db1_kg:'informix'.sysfragdist                                      687        8
+ db1_kg:'informix'.sysprocbody                                      695        8
+ db1_kg:'informix'.sysprocedures                                    703        8
+ db1_kg:'informix'.sysprocbody                                      711       16
+ db1_kg:'informix'.sysprocauth                                      727        8
+ db1_kg:'informix'.sysprocbody                                      735       32
+ db1_kg:'informix'.sysprocedures                                    767       16
+ db1_kg:'informix'.sysprocbody                                      783       64
+ db1_kg:'informix'.sysproccolumns                                   847        8
+ db1_kg:'informix'.sysprocedures                                    855       32
+ db1_kg:'informix'.sysprocauth                                      887       16
+ db1_kg:'informix'.sysprocbody                                      903      128
+ db1_kg:'informix'.sysprocplan                                     1031        8
+ db1_kg:'informix'.sysproccolumns                                  1039       16
+ db1_kg:'informix'.sysprocplan                                     1055       16
+ db1_kg:'informix'. 100_1                                          1071        4
+ db1_kg:'informix'.tab1_kg                                         1075      256
+ db1_kg:'informix'. 100_1                                          1331        4
+ db1_kg:'informix'.tab1_kg                                         1335      384
+ db1_kg:'informix'. 100_1                                          1719        8
+ db1_kg:'informix'.tab1_kg                                         1727      896
+ db1_kg:'informix'. 100_1                                          2623       16
+ db1_kg:'informix'.tab1_kg                                         2639     2048
+ db1_kg:'informix'. 100_1                                          4687       32
+ db1_kg:'informix'.tab1_kg                                         4719     3584
+ db1_kg:'informix'. 100_1                                          8303       64
+ db1_kg:'informix'.tab1_kg                                         8367     3072
+ FREE                                                             11439     1361
+
+ Total Used:    11439
+ Total Free:     1361
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     3 C:\ol_kg_data\danekg1_2.000                    4     5100        3     5097
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ FREE                                                                 3     5097
+
+ Total Used:        3
+ Total Free:     5097
+
+
+
+DBspace Usage Report: danekg2             Owner: informix  Created: 06/10/2014
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     4 C:\ol_kg_data\danekg2_1.000                    4    10240     1071     9169
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ danekg2:'informix'.TBLSpace                                          3       50
+ db2_kg:'informix'.systables                                         53        8
+ db2_kg:'informix'.syscolumns                                        61       16
+ db2_kg:'informix'.sysindices                                        77       64
+ db2_kg:'informix'.systabauth                                       141        8
+ db2_kg:'informix'.syscolauth                                       149        8
+ db2_kg:'informix'.sysviews                                         157        8
+ db2_kg:'informix'.sysusers                                         165        8
+ db2_kg:'informix'.sysdepend                                        173        8
+ db2_kg:'informix'.syssynonyms                                      181        8
+ db2_kg:'informix'.syssyntable                                      189        8
+ db2_kg:'informix'.sysconstraints                                   197        8
+ db2_kg:'informix'.sysreferences                                    205        8
+ db2_kg:'informix'.syschecks                                        213        8
+ db2_kg:'informix'.sysdefaults                                      221        8
+ db2_kg:'informix'.syscoldepend                                     229        8
+ db2_kg:'informix'.sysprocedures                                    237        8
+ db2_kg:'informix'.sysprocbody                                      245        8
+ db2_kg:'informix'.sysprocplan                                      253        8
+ db2_kg:'informix'.sysprocauth                                      261        8
+ db2_kg:'informix'.sysblobs                                         269        8
+ db2_kg:'informix'.sysopclstr                                       277        8
+ db2_kg:'informix'.systriggers                                      285        8
+ db2_kg:'informix'.systrigbody                                      293        8
+ db2_kg:'informix'.sysdistrib                                       301        8
+ db2_kg:'informix'.sysfragments                                     309        8
+ db2_kg:'informix'.sysfragauth                                      317        8
+ db2_kg:'informix'.sysxtdtypes                                      325        8
+ db2_kg:'informix'.sysxtddesc                                       333        8
+ db2_kg:'informix'.sysattrtypes                                     341        8
+ db2_kg:'informix'.sysinherits                                      349        8
+ db2_kg:'informix'.syscolattribs                                    357        8
+ db2_kg:'informix'.syslogmap                                        365        8
+ db2_kg:'informix'.syscasts                                         373       16
+ db2_kg:'informix'.sysxtdtypeauth                                   389        8
+ db2_kg:'informix'.sysams                                           397        8
+ db2_kg:'informix'.systabamdata                                     405        8
+ db2_kg:'informix'.sysopclasses                                     413        8
+ db2_kg:'informix'.syserrors                                        421        8
+ db2_kg:'informix'.systraceclasses                                  429        8
+ db2_kg:'informix'.systracemsgs                                     437        8
+ db2_kg:'informix'.sysroutinelangs                                  445        8
+ db2_kg:'informix'.syslangauth                                      453        8
+ db2_kg:'informix'.sysaggregates                                    461        8
+ db2_kg:'informix'.sysroleauth                                      469        8
+ db2_kg:'informix'.sysobjstate                                      477        8
+ db2_kg:'informix'.sysviolations                                    485        8
+ db2_kg:'informix'.syssequences                                     493        8
+ db2_kg:'informix'.sysdirectives                                    501        8
+ danekg2:'informix'.TBLSpace                                        509       50
+ db2_kg:'informix'.sysxasourcetypes                                 559        8
+ db2_kg:'informix'.sysxadatasources                                 567        8
+ db2_kg:'informix'.sysseclabelcomponents                            575        8
+ db2_kg:'informix'.sysseclabelcomponentelements                     583        8
+ db2_kg:'informix'.syssecpolicies                                   591        8
+ db2_kg:'informix'.syssecpolicycomponents                           599        8
+ db2_kg:'informix'.syssecpolicyexemptions                           607        8
+ db2_kg:'informix'.sysseclabels                                     615        8
+ db2_kg:'informix'.sysseclabelnames                                 623        8
+ db2_kg:'informix'.sysseclabelauth                                  631        8
+ db2_kg:'informix'.syssurrogateauth                                 639        8
+ db2_kg:'informix'.sysproccolumns                                   647        8
+ db2_kg:'informix'.sysexternal                                      655        8
+ db2_kg:'informix'.sysextdfiles                                     663        8
+ db2_kg:'informix'.sysextcols                                       671        8
+ db2_kg:'informix'.sysautolocate                                    679        8
+ db2_kg:'informix'.sysfragdist                                      687        8
+ db2_kg:'informix'.sysprocbody                                      695        8
+ db2_kg:'informix'.sysprocedures                                    703        8
+ db2_kg:'informix'.sysprocbody                                      711       16
+ db2_kg:'informix'.sysprocauth                                      727        8
+ db2_kg:'informix'.sysprocbody                                      735       32
+ db2_kg:'informix'.sysprocedures                                    767       16
+ db2_kg:'informix'.sysprocbody                                      783       64
+ db2_kg:'informix'.sysproccolumns                                   847        8
+ db2_kg:'informix'.sysprocedures                                    855       32
+ db2_kg:'informix'.sysprocauth                                      887       16
+ db2_kg:'informix'.sysprocbody                                      903      128
+ db2_kg:'informix'.sysprocplan                                     1031        8
+ db2_kg:'informix'.sysproccolumns                                  1039       16
+ db2_kg:'informix'.sysprocplan                                     1055       16
+ FREE                                                              1071     9169
+
+ Total Used:     1071
+ Total Free:     9169
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     5 C:\ol_kg_data\danekg2_2.000                    4     7680        3     7677
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ FREE                                                                 3     7677
+
+ Total Used:        3
+ Total Free:     7677
+
+
+
+DBspace Usage Report: logkg               Owner: informix  Created: 06/10/2014
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     6 C:\ol_kg_log\logkg.000                         4     7680     7553      127
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ logkg:'informix'.TBLSpace                                            3       50
+ PHYSICAL LOG                                                        53     7500
+ FREE                                                              7553      127
+
+ Total Used:     7553
+ Total Free:      127
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     9 C:\ol_kg_log\logkg.001                         4    12800    10243     2557
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ LOGICAL LOG: Log file 7                                              3     2560
+ LOGICAL LOG: Log file 8                                           2563     2560
+ LOGICAL LOG: Log file 9                                           5123     2560
+ LOGICAL LOG: Log file 10                                          7683     2560
+ FREE                                                             10243     2557
+
+ Total Used:    10243
+ Total Free:     2557
+
+
+
+DBspace Usage Report: tmp1_kg             Owner: informix  Created: 06/10/2014
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     7 C:\ol_kg_tmp\tmp1_kg.000                       4     7680       53     7627
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ (0x500001) tmp1_kg:'informix'.TBLSpace                               3       50
+ FREE                                                                53     7627
+
+ Total Used:       53
+ Total Free:     7627
+
+
+
+DBspace Usage Report: tmp2_kg             Owner: informix  Created: 06/10/2014
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     8 C:\ol_kg_tmp\tmp2_kg.000                       4     7680       53     7627
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ (0x600001) tmp2_kg:'informix'.TBLSpace                               3       50
+ FREE                                                                53     7627
+
+ Total Used:       53
+ Total Free:     7627
+

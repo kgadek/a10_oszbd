@@ -151,9 +151,26 @@
 	>> ontape -s
 
    2.* Stwórz w bazie danych db1_xx tabelę tab1_xx o kolumcach: id int (klucz główny), nazwa char 1200
+
+	>> CREATE TABLE tab1_kg (id int, nazwa char(1200), PRIMARY KEY(id));
+	>> CREATE PROCEDURE blah()
+		DEFINE i INTEGER;
+		FOR i=1 TO 30000
+			INSERT INTO tab1_kg (id,nazwa) VALUES (i, 'Blah Guy');
+		END FOR;
+	END PROCEDURE;
+	EXECUTE PROCEDURE blah();
+	DROP PROCEDURE blah;
+
    3.* Wstaw 30 000 wierszy do tej tabeli
    4.* Zaobserwuj proces wypełniania logu logicznego
+
+	>> onstat -l
+
    5.* Pokaż raporty wykorzystania przestrzeni dyskowej, skomentuj istotne parametry które można odczytać z tych raportów
+
+	>> onstat -d
+
    6.* Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
    7.* Ile miejsca zajmuje tabela tab1_xx, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów
    8.* Stwórz w bazie danych db1_xx tabelę tab2_xx o kolumcach: id int (klucz główny), nazwa char 2400
