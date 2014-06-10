@@ -125,6 +125,17 @@
 
    2.* Przenieś log logiczny (logical log) do przestrzeni log_xx, utwórz dodatkowe elementy logu (logi cal log files) tak aby log logiczny miał w sumie nie mniej niż 40 MB. Jeśli jest taka potrzeba to powiększ rozmiar przestrzeni na logi
 
+	>> onparams -a -d logkg -s 10240
+	<< spodziewamy się ERRORa
+	>> type nul >>C:\ol_kg_log\logkg.001
+	>> type nul >>C:\ol_kg_mirror\logkg_mirror.001
+	>> onspaces -a logkg -p C:\ol_kg_log\logkg.001 -o 0 -s 51200 -m C:\ol_kg_mirror\logkg_mirror.001 0
+	>> onparams -a -d logkg -s 10240
+	>> onparams -a -d logkg -s 10240
+	>> onparams -a -d logkg -s 10240
+	>> onparams -a -d logkg -s 10240
+
+
    3.* Zweryfikuj poprawność konfiguracji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
 
 5. Zarządzanie przestrzenią dyskową 2
