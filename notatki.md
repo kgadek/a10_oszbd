@@ -198,6 +198,9 @@
    10.* Wstaw 5000 kolejnych wierszy do tabeli tab1_xx
    11.* Ile miejsca zajmują tabele tab1_xx, tab2_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów
    12.* Pokaż zawartość strony zawierającej 5 wiersz tabeli tab1_xx, ile wierszy znajduje się na tej stronie
+
+	>> SELECT rowid,* FROM tab1_kg WHERE id = 5;
+
    13.* Pokaż zawartość strony zawierającej 7 wiersz tabeli tab2_xx, ile wierszy znajduje się na tej stronie
    14.* Usuń wiersze o id z przedziału [100 .. 20 000] z tabeli tab1_xxx 
    15.* Pokaż raporty wykorzystania przestrzeni dyskowej, , skomentuj istotne parametry które można odczytać z tych raportów
