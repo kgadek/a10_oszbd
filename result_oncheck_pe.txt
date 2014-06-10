@@ -4,20 +4,14 @@ DBspace Usage Report: rootdbs             Owner: informix  Created: 06/10/2014
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
-     1 C:\ol_kg_data\rootdbs_dat.000                  4    51200    20278    30922
+     1 C:\ol_kg_data\rootdbs_dat.000                  4    51200     5278    45922
 
  Description                                                   Offset(p)  Size(p)
  ------------------------------------------------------------- -------- --------
  RESERVED PAGES                                                       0       12
  CHUNK FREELIST PAGE                                                 12        1
  rootdbs:'informix'.TBLSpace                                         13      250
- FREE                                                               263    12500
- LOGICAL LOG: Log file 1                                          12763     2500
- LOGICAL LOG: Log file 2                                          15263     2500
- LOGICAL LOG: Log file 3                                          17763     2500
- LOGICAL LOG: Log file 4                                          20263     2500
- LOGICAL LOG: Log file 5                                          22763     2500
- LOGICAL LOG: Log file 6                                          25263     2500
+ FREE                                                               263    27500
  sysmaster:'informix'.sysdatabases                                27763        4
  system:'informix'.syslicenseinfo                                 27767       16
  sysmaster:'informix'.systables                                   27783        8
@@ -431,8 +425,8 @@ DBspace Usage Report: rootdbs             Owner: informix  Created: 06/10/2014
  sysadmin:'informix'.mon_config                                   32775        8
  FREE                                                             32783    18417
 
- Total Used:    20278
- Total Free:    30922
+ Total Used:     5278
+ Total Free:    45922
 
 
 
@@ -440,7 +434,7 @@ DBspace Usage Report: danekg1             Owner: informix  Created: 06/10/2014
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
-     2 C:\ol_kg_data\danekg1_1.000                    4    12800     1071    11729
+     2 C:\ol_kg_data\danekg1_1.000                    4    12800    12800        0
 
  Description                                                   Offset(p)  Size(p)
  ------------------------------------------------------------- -------- --------
@@ -527,23 +521,38 @@ DBspace Usage Report: danekg1             Owner: informix  Created: 06/10/2014
  db1_kg:'informix'.sysprocplan                                     1031        8
  db1_kg:'informix'.sysproccolumns                                  1039       16
  db1_kg:'informix'.sysprocplan                                     1055       16
- FREE                                                              1071    11729
+ db1_kg:'informix'. 100_1                                          1071        4
+ db1_kg:'informix'.tab1_kg                                         1075      256
+ db1_kg:'informix'. 100_1                                          1331        4
+ db1_kg:'informix'.tab1_kg                                         1335      384
+ db1_kg:'informix'. 100_1                                          1719        8
+ db1_kg:'informix'.tab1_kg                                         1727      896
+ db1_kg:'informix'. 100_1                                          2623       16
+ db1_kg:'informix'.tab1_kg                                         2639     2048
+ db1_kg:'informix'. 100_1                                          4687       32
+ db1_kg:'informix'.tab1_kg                                         4719     3584
+ db1_kg:'informix'. 100_1                                          8303       64
+ db1_kg:'informix'.tab1_kg                                         8367     3072
+ db1_kg:'informix'. 101_2                                         11439        4
+ db1_kg:'informix'.tab2_kg                                        11443       16
+ db1_kg:'informix'.tab1_kg                                        11459     1341
 
- Total Used:     1071
- Total Free:    11729
+ Total Used:    12800
+ Total Free:        0
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
-     3 C:\ol_kg_data\danekg1_2.000                    4     5100        3     5097
+     3 C:\ol_kg_data\danekg1_2.000                    4     5100     2051     3049
 
  Description                                                   Offset(p)  Size(p)
  ------------------------------------------------------------- -------- --------
  RESERVED PAGES                                                       0        2
  CHUNK FREELIST PAGE                                                  2        1
- FREE                                                                 3     5097
+ db1_kg:'informix'.tab1_kg                                            3     2048
+ FREE                                                              2051     3049
 
- Total Used:        3
- Total Free:     5097
+ Total Used:     2051
+ Total Free:     3049
 
 
 
@@ -674,6 +683,23 @@ DBspace Usage Report: logkg               Owner: informix  Created: 06/10/2014
 
  Total Used:     7553
  Total Free:      127
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     9 C:\ol_kg_log\logkg.001                         4    12800    10243     2557
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ LOGICAL LOG: Log file 7                                              3     2560
+ LOGICAL LOG: Log file 8                                           2563     2560
+ LOGICAL LOG: Log file 9                                           5123     2560
+ LOGICAL LOG: Log file 10                                          7683     2560
+ FREE                                                             10243     2557
+
+ Total Used:    10243
+ Total Free:     2557
 
 
 

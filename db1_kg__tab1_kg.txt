@@ -19,8 +19,8 @@ TBLspace Report for db1_kg:informix.tab1_kg
     Next extent size               2048      
     Number of pages allocated      13629     
     Number of pages used           11669     
-    Number of data pages           11667     
-    Number of rows                 35000     
+    Number of data pages           5034      
+    Number of rows                 15099     
     Partition partnum              2097219   
     Partition lockid               2097219   
 
@@ -40,24 +40,24 @@ TBLspace Usage Report for db1_kg:informix.tab1_kg
 
     Type                  Pages      Empty  Semi-Full       Full  Very-Full
     ---------------- ---------- ---------- ---------- ---------- ----------
-    Free                   1960
+    Free                   8593
     Bit-Map                   2
     Index                     0
-    Data (Home)           11667
+    Data (Home)            5034
                      ----------
     Total Pages           13629
 
     Unused Space Summary
 
-        Unused data slots                                 1
+        Unused data slots                                 3
         Unused bytes per data page                      444
-        Total unused bytes in data pages            5180148
+        Total unused bytes in data pages            2235096
 
     Home Data Page Version Summary
 
                  Version                                 Count
 
-                       0 (current)                      11667
+                       0 (current)                       5034
 
 		  Index  100_1 fragment partition danekg1 in DBspace danekg1
 
@@ -97,9 +97,9 @@ TBLspace Usage Report for db1_kg:informix.tab1_kg
 
     Type                  Pages      Empty  Semi-Full       Full  Very-Full
     ---------------- ---------- ---------- ---------- ---------- ----------
-    Free                     13
+    Free                     76
     Bit-Map                   1
-    Index                   114
+    Index                    51
     Data (Home)               0
                      ----------
     Total Pages             128
@@ -121,8 +121,8 @@ Index Usage Report for index  100_1 on db1_kg:informix.tab1_kg
                     Average    Average
     Level    Total No. Keys Free Bytes
     ----- -------- -------- ----------
-        1        1      113       2716
-        2      113      309         41
+        1        1       50       3472
+        2       50      301        142
     ----- -------- -------- ----------
-    Total      114      308         64
+    Total       51      297        207
 

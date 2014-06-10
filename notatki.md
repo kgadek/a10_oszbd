@@ -203,6 +203,10 @@
 
    13.* Pokaż zawartość strony zawierającej 7 wiersz tabeli tab2_xx, ile wierszy znajduje się na tej stronie
    14.* Usuń wiersze o id z przedziału [100 .. 20 000] z tabeli tab1_xxx 
+
+	>> DELETE FROM tab1_kg WHERE id>=100  AND id<=10000;
+	>> DELETE FROM tab1_kg WHERE id>10000 AND id<=20000;
+
    15.* Pokaż raporty wykorzystania przestrzeni dyskowej, , skomentuj istotne parametry które można odczytać z tych raportów
    16.* Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
    17.* Ile miejsca zajmuje tabela tab1_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów itp.
