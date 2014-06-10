@@ -61,7 +61,7 @@ MIRROROFFSET 0
 # PHYSBUFF           - The size of the physical log buffer, in KB
 ###################################################################
 
-PHYSFILE 50000
+PHYSFILE        30000           
 PLOG_OVERFLOW_PATH  
 PHYSBUFF 128
 
@@ -404,7 +404,7 @@ HETERO_COMMIT 0
 #                positive integral multiple of TAPEBLK.
 ###################################################################
 
-TAPEDEV \\.\TAPE0
+TAPEDEV NUL
 TAPEBLK 16
 TAPESIZE 0
 
@@ -1188,7 +1188,7 @@ STORAGE_FULL_ALARM 600,3
 #                  Do not change; automatically updated.
 ###################################################################
 
-RAS_PLOG_SPEED  12500           
+RAS_PLOG_SPEED  68790           
 RAS_LLOG_SPEED 0
 
 ###################################################################

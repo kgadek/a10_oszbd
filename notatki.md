@@ -118,8 +118,13 @@
    1.* Przenieś log fizyczny (phisical log) do przestrzeni log_xx
 
 	>> onparams -p -s 30000 -d logkg -y
+	>> #fix config
+	>> onmode -ky
+	>> starts ol2014_kg
+	>> ontape -s
 
    2.* Przenieś log logiczny (logical log) do przestrzeni log_xx, utwórz dodatkowe elementy logu (logi cal log files) tak aby log logiczny miał w sumie nie mniej niż 40 MB. Jeśli jest taka potrzeba to powiększ rozmiar przestrzeni na logi
+
    3.* Zweryfikuj poprawność konfiguracji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
 
 5. Zarządzanie przestrzenią dyskową 2
