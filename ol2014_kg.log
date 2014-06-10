@@ -219,3 +219,1067 @@ accommodate the time it takes to flush the buffer pool.
 01:18:41  Logical Log 2 Complete, timestamp: 0x23bd3.
 01:18:41  Auto Registration is synced
 01:18:41  SCHAPI: Started 2 dbWorker threads.
+01:23:58  Checkpoint Completed:  duration was 0 seconds.
+01:23:58  Tue Jun 10 - loguniq 3, logpos 0x5eb018, timestamp: 0x24f81 Interval: 8
+
+01:23:58  Maximum server connections 1 
+01:23:58  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 57, Llog used 406
+
+01:33:58  Checkpoint Completed:  duration was 0 seconds.
+01:33:58  Tue Jun 10 - loguniq 3, logpos 0x5ed018, timestamp: 0x24f8e Interval: 9
+
+01:33:58  Maximum server connections 1 
+01:33:58  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 10, Llog used 2
+
+01:35:02  Checkpoint Completed:  duration was 0 seconds.
+01:35:02  Tue Jun 10 - loguniq 3, logpos 0x5ef018, timestamp: 0x24f97 Interval: 10
+
+01:35:02  Maximum server connections 1 
+01:35:02  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+01:35:03  IBM Informix Dynamic Server Stopped.
+
+01:35:17  IBM Informix Dynamic Server Started.
+01:35:17  Warning: The IBM IDS Developer Edition license restriction limits
+01:35:17  the total shared memory size for this server to 1048576 KB.
+01:35:17  The maximum allowable shared memory was reset to this size to start the database server. 
+01:35:17  Requested shared memory segment size rounded from 32656KB to 32704KB
+01:35:58  IBM Informix Dynamic Server Started.
+01:35:58  Warning: The IBM IDS Developer Edition license restriction limits
+01:35:58  the total shared memory size for this server to 1048576 KB.
+01:35:58  The maximum allowable shared memory was reset to this size to start the database server. 
+01:35:58  Requested shared memory segment size rounded from 32656KB to 32704KB
+01:37:26  IBM Informix Dynamic Server Started.
+01:37:26  Warning: The IBM IDS Developer Edition license restriction limits
+01:37:26  the total shared memory size for this server to 1048576 KB.
+01:37:26  The maximum allowable shared memory was reset to this size to start the database server. 
+01:37:26  Requested shared memory segment size rounded from 32656KB to 32704KB
+01:37:55  IBM Informix Dynamic Server Started.
+01:37:55  Warning: The IBM IDS Developer Edition license restriction limits
+01:37:55  the total shared memory size for this server to 1048576 KB.
+01:37:55  The maximum allowable shared memory was reset to this size to start the database server. 
+01:37:55  Requested shared memory segment size rounded from 32656KB to 32704KB
+01:42:45  IBM Informix Dynamic Server Started.
+01:42:45  Warning: The IBM IDS Developer Edition license restriction limits
+01:42:45  the total shared memory size for this server to 1048576 KB.
+01:42:45  The maximum allowable shared memory was reset to this size to start the database server. 
+01:42:45  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 01:42:45 2014
+
+01:42:45  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+01:42:45  Booting Language <c> from module <>
+01:42:45  Loading Module <CNULL>
+01:42:45  Booting Language <builtin> from module <>
+01:42:45  Loading Module <BUILTINNULL>
+01:42:51  DR: DRAUTO is 0 (Off)
+01:42:51  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+01:42:51  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+01:42:51  listener-thread: err = -931: oserr = 0: errstr = turbo2: Cannot locate turbo2 service/tcp service in /etc/services.
+
+01:42:51  sql_listener: ASF_LISTEN failed
+01:42:51  Attempting to bring listener thread down.
+01:42:52  IBM Informix Dynamic Server Initialized -- Shared Memory Initialized.
+
+01:42:52  Started 1 B-tree scanners.
+01:42:52  B-tree scanner threshold set at 5000.
+01:42:52  B-tree scanner range scan size set to -1.
+01:42:52  B-tree scanner ALICE mode set to 6.
+01:42:52  B-tree scanner index compression level set to med.
+01:42:52  Physical Recovery Started at Page (1:659).
+01:42:52  Physical Recovery Complete: 0 Pages Examined, 0 Pages Restored.
+01:42:52  Logical Recovery Started.
+01:42:52  10 recovery worker threads will be started.
+01:42:53  Logical Recovery has reached the transaction cleanup phase.
+01:42:53  Logical Recovery Complete.
+	  0 Committed, 0 Rolled Back, 0 Open, 0 Bad Locks
+
+01:42:54  Onconfig parameter STORAGE_FULL_ALARM modified from 0 to 3.
+01:42:54  Dataskip is now OFF for all dbspaces
+01:42:54  Init operation complete - Mode Online
+01:42:54  Checkpoint Completed:  duration was 0 seconds.
+01:42:54  Tue Jun 10 - loguniq 3, logpos 0x5f10b4, timestamp: 0x24fb7 Interval: 11
+
+01:42:54  Maximum server connections 0 
+01:42:54  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 3, Llog used 1
+
+01:42:54  On-Line Mode
+01:42:57  SCHAPI: Started dbScheduler thread.
+01:42:57  Auto Registration is synced
+01:42:57  Booting Language <spl> from module <>
+01:42:57  Loading Module <SPLNULL>
+01:42:57  SCHAPI: Started 2 dbWorker threads.
+01:42:59  Defragmenter cleaner thread now running
+01:42:59  Defragmenter cleaner thread cleaned:0 partitions
+01:46:15  Checkpoint Completed:  duration was 0 seconds.
+01:46:15  Tue Jun 10 - loguniq 3, logpos 0x602018, timestamp: 0x25acf Interval: 12
+
+01:46:15  Maximum server connections 1 
+01:46:15  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 14, Llog used 17
+
+01:46:16  IBM Informix Dynamic Server Stopped.
+
+01:46:46  IBM Informix Dynamic Server Started.
+01:46:46  Warning: The IBM IDS Developer Edition license restriction limits
+01:46:46  the total shared memory size for this server to 1048576 KB.
+01:46:46  The maximum allowable shared memory was reset to this size to start the database server. 
+01:46:46  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 01:46:46 2014
+
+01:46:46  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+01:46:46  Booting Language <c> from module <>
+01:46:46  Loading Module <CNULL>
+01:46:46  Booting Language <builtin> from module <>
+01:46:46  Loading Module <BUILTINNULL>
+01:46:52  DR: DRAUTO is 0 (Off)
+01:46:52  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+01:46:52  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+01:46:53  IBM Informix Dynamic Server Initialized -- Shared Memory Initialized.
+
+01:46:53  Started 1 B-tree scanners.
+01:46:53  B-tree scanner threshold set at 5000.
+01:46:53  B-tree scanner range scan size set to -1.
+01:46:53  B-tree scanner ALICE mode set to 6.
+01:46:53  B-tree scanner index compression level set to med.
+01:46:53  Physical Recovery Started at Page (1:676).
+01:46:53  Physical Recovery Complete: 5 Pages Examined, 5 Pages Restored.
+01:46:53  Logical Recovery Started.
+01:46:53  10 recovery worker threads will be started.
+01:46:54  Logical Recovery has reached the transaction cleanup phase.
+01:46:54  Logical Recovery Complete.
+	  0 Committed, 0 Rolled Back, 0 Open, 0 Bad Locks
+
+01:46:55  Onconfig parameter STORAGE_FULL_ALARM modified from 0 to 3.
+01:46:55  Dataskip is now OFF for all dbspaces
+01:46:55  Init operation complete - Mode Online
+01:46:55  Checkpoint Completed:  duration was 0 seconds.
+01:46:55  Tue Jun 10 - loguniq 3, logpos 0x6040b4, timestamp: 0x25ae5 Interval: 13
+
+01:46:55  Maximum server connections 0 
+01:46:55  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 9, Llog used 1
+
+01:46:55  On-Line Mode
+01:46:58  SCHAPI: Started dbScheduler thread.
+01:46:58  Auto Registration is synced
+01:46:58  Booting Language <spl> from module <>
+01:46:58  Loading Module <SPLNULL>
+01:46:58  SCHAPI: Started 2 dbWorker threads.
+01:47:00  Defragmenter cleaner thread now running
+01:47:00  Defragmenter cleaner thread cleaned:0 partitions
+01:47:25  Checkpoint Completed:  duration was 0 seconds.
+01:47:25  Tue Jun 10 - loguniq 3, logpos 0x60a018, timestamp: 0x25d28 Interval: 14
+
+01:47:25  Maximum server connections 0 
+01:47:25  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 7, Llog used 6
+
+01:47:26  IBM Informix Dynamic Server Stopped.
+
+01:47:33  IBM Informix Dynamic Server Started.
+01:47:33  Warning: The IBM IDS Developer Edition license restriction limits
+01:47:33  the total shared memory size for this server to 1048576 KB.
+01:47:33  The maximum allowable shared memory was reset to this size to start the database server. 
+01:47:33  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 01:47:33 2014
+
+01:47:33  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+01:47:33  Booting Language <c> from module <>
+01:47:33  Loading Module <CNULL>
+01:47:33  Booting Language <builtin> from module <>
+01:47:33  Loading Module <BUILTINNULL>
+01:47:39  DR: DRAUTO is 0 (Off)
+01:47:39  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+01:47:39  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+01:47:40  IBM Informix Dynamic Server Initialized -- Shared Memory Initialized.
+
+01:47:40  Started 1 B-tree scanners.
+01:47:40  B-tree scanner threshold set at 5000.
+01:47:40  B-tree scanner range scan size set to -1.
+01:47:40  B-tree scanner ALICE mode set to 6.
+01:47:40  B-tree scanner index compression level set to med.
+01:47:40  Physical Recovery Started at Page (1:692).
+01:47:40  Physical Recovery Complete: 2 Pages Examined, 2 Pages Restored.
+01:47:40  Logical Recovery Started.
+01:47:40  10 recovery worker threads will be started.
+01:47:41  Logical Recovery has reached the transaction cleanup phase.
+01:47:41  Logical Recovery Complete.
+	  0 Committed, 0 Rolled Back, 0 Open, 0 Bad Locks
+
+01:47:42  Onconfig parameter STORAGE_FULL_ALARM modified from 0 to 3.
+01:47:42  Dataskip is now OFF for all dbspaces
+01:47:42  Init operation complete - Mode Online
+01:47:42  Checkpoint Completed:  duration was 0 seconds.
+01:47:42  Tue Jun 10 - loguniq 3, logpos 0x60c0b4, timestamp: 0x25d44 Interval: 15
+
+01:47:42  Maximum server connections 0 
+01:47:42  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 6, Llog used 1
+
+01:47:42  On-Line Mode
+01:47:45  SCHAPI: Started dbScheduler thread.
+01:47:45  Auto Registration is synced
+01:47:45  Booting Language <spl> from module <>
+01:47:45  Loading Module <SPLNULL>
+01:47:45  SCHAPI: Started 2 dbWorker threads.
+01:47:47  Defragmenter cleaner thread now running
+01:47:47  Defragmenter cleaner thread cleaned:0 partitions
+01:49:51  listener-thread: err = -951: oserr = 0: errstr = informix@akademia-3ef320: Incorrect password or user informix@akademia-3ef320 is not known on the database server.
+
+01:53:11  Checkpoint Completed:  duration was 0 seconds.
+01:53:11  Tue Jun 10 - loguniq 3, logpos 0x61d018, timestamp: 0x2686b Interval: 16
+
+01:53:11  Maximum server connections 1 
+01:53:11  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 17, Llog used 17
+
+01:57:15  Checkpoint Completed:  duration was 0 seconds.
+01:57:15  Tue Jun 10 - loguniq 3, logpos 0x61f2e0, timestamp: 0x26886 Interval: 17
+
+01:57:15  Maximum server connections 1 
+01:57:15  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 6, Llog used 2
+
+01:57:15  Space 'danekg1' added.
+01:57:32  Checkpoint Completed:  duration was 0 seconds.
+01:57:32  Tue Jun 10 - loguniq 3, logpos 0x622214, timestamp: 0x26899 Interval: 18
+
+01:57:32  Maximum server connections 1 
+01:57:32  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 3
+
+01:57:32  Chunk 'C:\ol_kg_data\danekg1_2.000' added to space 'danekg1'.
+02:07:00  Checkpoint Completed:  duration was 0 seconds.
+02:07:00  Tue Jun 10 - loguniq 3, logpos 0x6252e0, timestamp: 0x268b5 Interval: 19
+
+02:07:00  Maximum server connections 1 
+02:07:00  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 3
+
+02:07:00  Chunk Number 4 - 'C:\ol_kg_mirror\danekg2_1_mirror.000' -- Recovery Begins(0EE97EA8)
+02:07:00  Checkpoint Completed:  duration was 0 seconds.
+02:07:00  Tue Jun 10 - loguniq 3, logpos 0x6271e0, timestamp: 0x268c0 Interval: 20
+
+02:07:00  Maximum server connections 1 
+02:07:00  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+02:07:00  Chunk Number 4 - 'C:\ol_kg_mirror\danekg2_1_mirror.000' -- Online
+02:07:00  Checkpoint Completed:  duration was 0 seconds.
+02:07:00  Tue Jun 10 - loguniq 3, logpos 0x629018, timestamp: 0x268ca Interval: 21
+
+02:07:00  Maximum server connections 1 
+02:07:00  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+02:07:00  Chunk number 4 'C:\ol_kg_mirror\danekg2_1_mirror.000' -- Recovery Complete(0EE97EA8)
+02:07:00  Space 'danekg2' added.
+02:07:18  Checkpoint Completed:  duration was 0 seconds.
+02:07:18  Tue Jun 10 - loguniq 3, logpos 0x62b244, timestamp: 0x268db Interval: 22
+
+02:07:18  Maximum server connections 1 
+02:07:18  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+02:07:18  Chunk Number 5 - 'C:\ol_kg_mirror\danekg2_2_mirror.000' -- Recovery Begins(0EE97EA8)
+02:07:18  Checkpoint Completed:  duration was 0 seconds.
+02:07:18  Tue Jun 10 - loguniq 3, logpos 0x62d1e0, timestamp: 0x268e6 Interval: 23
+
+02:07:18  Maximum server connections 1 
+02:07:18  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+02:07:18  Chunk Number 5 - 'C:\ol_kg_mirror\danekg2_2_mirror.000' -- Online
+02:07:18  Checkpoint Completed:  duration was 0 seconds.
+02:07:18  Tue Jun 10 - loguniq 3, logpos 0x62f018, timestamp: 0x268f0 Interval: 24
+
+02:07:18  Maximum server connections 1 
+02:07:18  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+02:07:18  Chunk number 5 'C:\ol_kg_mirror\danekg2_2_mirror.000' -- Recovery Complete(0EE97EA8)
+02:07:18  Chunk 'C:\ol_kg_data\danekg2_2.000' added to space 'danekg2'.
+02:13:57  Checkpoint Completed:  duration was 0 seconds.
+02:13:57  Tue Jun 10 - loguniq 3, logpos 0x6322e0, timestamp: 0x26909 Interval: 25
+
+02:13:57  Maximum server connections 1 
+02:13:57  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 3
+
+02:13:57  Chunk Number 6 - 'C:\ol_kg_mirror\logkg_mirror.000' -- Recovery Begins(0EE97EA8)
+02:13:57  Checkpoint Completed:  duration was 0 seconds.
+02:13:57  Tue Jun 10 - loguniq 3, logpos 0x6341e0, timestamp: 0x26914 Interval: 26
+
+02:13:57  Maximum server connections 1 
+02:13:57  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+02:13:57  Chunk Number 6 - 'C:\ol_kg_mirror\logkg_mirror.000' -- Online
+02:13:57  Checkpoint Completed:  duration was 0 seconds.
+02:13:57  Tue Jun 10 - loguniq 3, logpos 0x636018, timestamp: 0x2691e Interval: 27
+
+02:13:57  Maximum server connections 1 
+02:13:57  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+02:13:57  Chunk number 6 'C:\ol_kg_mirror\logkg_mirror.000' -- Recovery Complete(0EE97EA8)
+02:13:57  Space 'logkg' added.
+02:19:10  Checkpoint Completed:  duration was 0 seconds.
+02:19:10  Tue Jun 10 - loguniq 3, logpos 0x640018, timestamp: 0x269b2 Interval: 28
+
+02:19:10  Maximum server connections 1 
+02:19:10  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 16, Llog used 10
+
+02:19:32  Checkpoint Completed:  duration was 0 seconds.
+02:19:32  Tue Jun 10 - loguniq 3, logpos 0x6422e0, timestamp: 0x269c5 Interval: 29
+
+02:19:32  Maximum server connections 1 
+02:19:32  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 7, Llog used 2
+
+02:19:32  Space 'tmp1_kg' added.
+02:19:52  Checkpoint Completed:  duration was 0 seconds.
+02:19:52  Tue Jun 10 - loguniq 3, logpos 0x6452e0, timestamp: 0x269da Interval: 30
+
+02:19:52  Maximum server connections 1 
+02:19:52  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 3
+
+02:19:52  Space 'tmp2_kg' added.
+02:26:14  Unloading Module <SPLNULL>
+02:26:14  Logical Log 3 Complete, timestamp: 0x3091e.
+02:26:31  Loading Module <SPLNULL>
+02:30:08  Checkpoint Completed:  duration was 0 seconds.
+02:30:08  Tue Jun 10 - loguniq 4, logpos 0x1eb018, timestamp: 0x309b8 Interval: 31
+
+02:30:08  Maximum server connections 1 
+02:30:08  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 19, Llog used 1386
+
+02:35:08  Checkpoint Completed:  duration was 0 seconds.
+02:35:08  Tue Jun 10 - loguniq 4, logpos 0x1ed018, timestamp: 0x309d1 Interval: 32
+
+02:35:08  Maximum server connections 1 
+02:35:08  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 9, Llog used 2
+
+02:50:09  Checkpoint Completed:  duration was 0 seconds.
+02:50:09  Tue Jun 10 - loguniq 4, logpos 0x1ef018, timestamp: 0x309e6 Interval: 33
+
+02:50:09  Maximum server connections 1 
+02:50:09  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+03:01:18  Checkpoint Completed:  duration was 0 seconds.
+03:01:18  Tue Jun 10 - loguniq 4, logpos 0x1f1080, timestamp: 0x309f9 Interval: 34
+
+03:01:18  Maximum server connections 1 
+03:01:18  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+03:01:19  Checkpoint Completed:  duration was 0 seconds.
+03:01:19  Tue Jun 10 - loguniq 4, logpos 0x1f30d0, timestamp: 0x30a02 Interval: 35
+
+03:01:19  Maximum server connections 1 
+03:01:19  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+03:01:20  Physical log location changed to dbspace logkg.
+03:01:20  Physical log size changed to 30000 KB.
+03:06:37  Checkpoint Completed:  duration was 0 seconds.
+03:06:37  Tue Jun 10 - loguniq 4, logpos 0x1f6018, timestamp: 0x30a19 Interval: 36
+
+03:06:37  Maximum server connections 1 
+03:06:37  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 4, Llog used 3
+
+03:09:24  Checkpoint Completed:  duration was 0 seconds.
+03:09:24  Tue Jun 10 - loguniq 4, logpos 0x1f8018, timestamp: 0x30a21 Interval: 37
+
+03:09:24  Maximum server connections 1 
+03:09:24  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+03:09:25  IBM Informix Dynamic Server Stopped.
+
+03:09:29  IBM Informix Dynamic Server Started.
+03:09:29  Warning: The IBM IDS Developer Edition license restriction limits
+03:09:29  the total shared memory size for this server to 1048576 KB.
+03:09:29  The maximum allowable shared memory was reset to this size to start the database server. 
+03:09:29  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 03:09:29 2014
+
+03:09:29  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+03:09:29  Booting Language <c> from module <>
+03:09:29  Loading Module <CNULL>
+03:09:29  Booting Language <builtin> from module <>
+03:09:29  Loading Module <BUILTINNULL>
+03:09:35  DR: DRAUTO is 0 (Off)
+03:09:35  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+03:09:35  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+03:09:36  IBM Informix Dynamic Server Initialized -- Shared Memory Initialized.
+
+03:09:36  Started 1 B-tree scanners.
+03:09:36  B-tree scanner threshold set at 5000.
+03:09:36  B-tree scanner range scan size set to -1.
+03:09:36  B-tree scanner ALICE mode set to 6.
+03:09:36  B-tree scanner index compression level set to med.
+03:09:36  Physical Recovery Started at Page (6:57).
+03:09:36  Physical Recovery Complete: 0 Pages Examined, 0 Pages Restored.
+03:09:36  Logical Recovery Started.
+03:09:36  10 recovery worker threads will be started.
+03:09:37  Logical Recovery has reached the transaction cleanup phase.
+03:09:37  Logical Recovery Complete.
+	  0 Committed, 0 Rolled Back, 0 Open, 0 Bad Locks
+
+03:09:38  Onconfig parameter STORAGE_FULL_ALARM modified from 0 to 3.
+03:09:38  Onconfig parameter TAPEDEV modified from \\.\TAPE0 to NUL.
+03:09:38  Dataskip is now OFF for all dbspaces
+03:09:38  Init operation complete - Mode Online
+03:09:38  Checkpoint Completed:  duration was 0 seconds.
+03:09:38  Tue Jun 10 - loguniq 4, logpos 0x1fa0b4, timestamp: 0x30a54 Interval: 38
+
+03:09:38  Maximum server connections 0 
+03:09:38  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 6, Llog used 1
+
+03:09:38  On-Line Mode
+03:09:41  SCHAPI: Started dbScheduler thread.
+03:09:41  Auto Registration is synced
+03:09:41  Booting Language <spl> from module <>
+03:09:41  Loading Module <SPLNULL>
+03:09:41  SCHAPI: Started 2 dbWorker threads.
+03:09:43  Defragmenter cleaner thread now running
+03:09:43  Defragmenter cleaner thread cleaned:0 partitions
+03:09:44  Checkpoint Completed:  duration was 0 seconds.
+03:09:44  Tue Jun 10 - loguniq 4, logpos 0x200018, timestamp: 0x30c9b Interval: 39
+
+03:09:44  Maximum server connections 1 
+03:09:44  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 9, Llog used 6
+
+03:09:45  Checkpoint Completed:  duration was 0 seconds.
+03:09:45  Tue Jun 10 - loguniq 4, logpos 0x202198, timestamp: 0x30ca8 Interval: 40
+
+03:09:45  Maximum server connections 1 
+03:09:45  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+03:15:05  Checkpoint Completed:  duration was 0 seconds.
+03:15:05  Tue Jun 10 - loguniq 4, logpos 0x213018, timestamp: 0x315ac Interval: 41
+
+03:15:05  Maximum server connections 1 
+03:15:05  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 16, Llog used 17
+
+03:20:05  Checkpoint Completed:  duration was 0 seconds.
+03:20:05  Tue Jun 10 - loguniq 4, logpos 0x21f018, timestamp: 0x3163e Interval: 42
+
+03:20:05  Maximum server connections 1 
+03:20:05  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 23, Llog used 12
+
+03:25:05  Checkpoint Completed:  duration was 0 seconds.
+03:25:05  Tue Jun 10 - loguniq 4, logpos 0x221018, timestamp: 0x31649 Interval: 43
+
+03:25:05  Maximum server connections 1 
+03:25:05  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 9, Llog used 2
+
+03:25:34  Warning: The storage pool is out of space. To enable automatic chunk
+          creation use the OpenAdmin Tool to add space to the pool.
+03:28:27  Checkpoint Completed:  duration was 0 seconds.
+03:28:27  Tue Jun 10 - loguniq 4, logpos 0x22a214, timestamp: 0x316b3 Interval: 44
+
+03:28:27  Maximum server connections 1 
+03:28:27  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 10, Llog used 9
+
+03:28:27  Chunk Number 9 - 'C:\ol_kg_mirror\logkg_mirror.001' -- Recovery Begins(0EE98A08)
+03:28:27  Checkpoint Completed:  duration was 0 seconds.
+03:28:27  Tue Jun 10 - loguniq 4, logpos 0x22c1e0, timestamp: 0x316be Interval: 45
+
+03:28:27  Maximum server connections 1 
+03:28:27  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 7, Llog used 2
+
+03:28:27  Chunk Number 9 - 'C:\ol_kg_mirror\logkg_mirror.001' -- Online
+03:28:27  Checkpoint Completed:  duration was 0 seconds.
+03:28:27  Tue Jun 10 - loguniq 4, logpos 0x22e018, timestamp: 0x316c8 Interval: 46
+
+03:28:27  Maximum server connections 1 
+03:28:27  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+03:28:27  Chunk number 9 'C:\ol_kg_mirror\logkg_mirror.001' -- Recovery Complete(0EE98A08)
+03:28:27  Chunk 'C:\ol_kg_log\logkg.001' added to space 'logkg'.
+03:28:45  Log file 7 added to DBspace 4.
+03:28:45  Checkpoint Completed:  duration was 0 seconds.
+03:28:45  Tue Jun 10 - loguniq 4, logpos 0x23113c, timestamp: 0x316d8 Interval: 47
+
+03:28:45  Maximum server connections 1 
+03:28:45  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 3
+
+03:28:45  Log file 8 added to DBspace 4.
+03:28:45  Checkpoint Completed:  duration was 0 seconds.
+03:28:45  Tue Jun 10 - loguniq 4, logpos 0x23413c, timestamp: 0x316e8 Interval: 48
+
+03:28:45  Maximum server connections 1 
+03:28:45  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 3
+
+03:28:45  Log file 9 added to DBspace 4.
+03:28:45  Checkpoint Completed:  duration was 1 seconds.
+03:28:45  Tue Jun 10 - loguniq 4, logpos 0x23713c, timestamp: 0x316f8 Interval: 49
+
+03:28:45  Maximum server connections 1 
+03:28:45  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 3
+
+03:28:47  Log file 10 added to DBspace 4.
+03:28:47  Checkpoint Completed:  duration was 0 seconds.
+03:28:47  Tue Jun 10 - loguniq 4, logpos 0x23a13c, timestamp: 0x31708 Interval: 50
+
+03:28:47  Maximum server connections 1 
+03:28:47  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 3
+
+03:31:23  Checkpoint Completed:  duration was 0 seconds.
+03:31:23  Tue Jun 10 - loguniq 4, logpos 0x23d018, timestamp: 0x31715 Interval: 51
+
+03:31:23  Maximum server connections 1 
+03:31:23  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 3
+
+03:31:44  Logical Log 4 Complete, timestamp: 0x3171a.
+03:32:58  Logical log file 1 has been pre-dropped.
+03:32:58  Checkpoint Completed:  duration was 0 seconds.
+03:32:58  Tue Jun 10 - loguniq 5, logpos 0x5018, timestamp: 0x3175a Interval: 52
+
+03:32:58  Maximum server connections 1 
+03:32:58  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 10, Llog used 8
+
+03:33:36  Logical log file 2 has been pre-dropped.
+03:33:36  Checkpoint Completed:  duration was 0 seconds.
+03:33:36  Tue Jun 10 - loguniq 5, logpos 0x7018, timestamp: 0x31764 Interval: 53
+
+03:33:36  Maximum server connections 1 
+03:33:36  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 7, Llog used 2
+
+03:33:55  Logical log file 3 has been pre-dropped.
+03:33:55  Checkpoint Completed:  duration was 0 seconds.
+03:33:55  Tue Jun 10 - loguniq 5, logpos 0x9018, timestamp: 0x3176e Interval: 54
+
+03:33:55  Maximum server connections 1 
+03:33:55  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+03:35:01  Logical log file 4 has been pre-dropped.
+03:35:01  Checkpoint Completed:  duration was 0 seconds.
+03:35:01  Tue Jun 10 - loguniq 5, logpos 0xb018, timestamp: 0x31779 Interval: 55
+
+03:35:01  Maximum server connections 1 
+03:35:01  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+03:36:04  Logical Log 5 Complete, timestamp: 0x3177f.
+03:36:07  Checkpoint Completed:  duration was 0 seconds.
+03:36:07  Tue Jun 10 - loguniq 6, logpos 0x4018, timestamp: 0x317ba Interval: 56
+
+03:36:07  Maximum server connections 1 
+03:36:07  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 10, Llog used 7
+
+03:36:25  Performance Advisory: Logical log file size might be too small for a
+          checkpoint to complete.
+03:36:25   Results: The size of individual logical log files is too small for
+          the current workload, resulting in each log file filling very
+          quickly. If log files fill in less than 30 seconds, the checkpoint
+          might remain blocked because the last log file fills during the time
+          needed to perform the checkpoint.
+03:36:25   Action: Increase the size of the individual logical log files so
+          that it takes at least 30 seconds to fill each one. Look at the
+          online log to determine how quickly the log files are filling, and
+          then increase the size of the files proportionately.
+03:36:26  Logical Log 6 Complete, timestamp: 0x317bf.
+03:36:34  Checkpoint Completed:  duration was 0 seconds.
+03:36:34  Tue Jun 10 - loguniq 7, logpos 0x4018, timestamp: 0x317f8 Interval: 57
+
+03:36:34  Maximum server connections 1 
+03:36:34  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 17, Llog used 7
+
+03:36:56  Logical log file 5 has been pre-dropped.
+03:36:56  Checkpoint Completed:  duration was 0 seconds.
+03:36:56  Tue Jun 10 - loguniq 7, logpos 0x6018, timestamp: 0x31802 Interval: 58
+
+03:36:56  Maximum server connections 1 
+03:36:56  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 7, Llog used 2
+
+03:36:59  Logical log file 6 has been pre-dropped.
+03:36:59  Checkpoint Completed:  duration was 0 seconds.
+03:36:59  Tue Jun 10 - loguniq 7, logpos 0x8018, timestamp: 0x3180c Interval: 59
+
+03:36:59  Maximum server connections 1 
+03:36:59  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+03:42:20  Checkpoint Completed:  duration was 0 seconds.
+03:42:20  Tue Jun 10 - loguniq 7, logpos 0xa018, timestamp: 0x31819 Interval: 60
+
+03:42:20  Maximum server connections 1 
+03:42:20  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+03:57:21  Checkpoint Completed:  duration was 0 seconds.
+03:57:21  Tue Jun 10 - loguniq 7, logpos 0xc018, timestamp: 0x31827 Interval: 61
+
+03:57:21  Maximum server connections 1 
+03:57:21  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+04:06:27  Checkpoint Completed:  duration was 0 seconds.
+04:06:27  Tue Jun 10 - loguniq 7, logpos 0x10018, timestamp: 0x3185b Interval: 62
+
+04:06:27  Maximum server connections 1 
+04:06:27  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 4
+
+04:06:28  Pre-dropped log file number 1 has been deleted from DBspace 1.
+04:06:28  Checkpoint Completed:  duration was 0 seconds.
+04:06:28  Tue Jun 10 - loguniq 7, logpos 0x1213c, timestamp: 0x31868 Interval: 63
+
+04:06:28  Maximum server connections 1 
+04:06:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+04:06:28  Pre-dropped log file number 2 has been deleted from DBspace 1.
+04:06:28  Checkpoint Completed:  duration was 0 seconds.
+04:06:28  Tue Jun 10 - loguniq 7, logpos 0x1416c, timestamp: 0x31875 Interval: 64
+
+04:06:28  Maximum server connections 1 
+04:06:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+04:06:28  Pre-dropped log file number 3 has been deleted from DBspace 1.
+04:06:28  Checkpoint Completed:  duration was 0 seconds.
+04:06:28  Tue Jun 10 - loguniq 7, logpos 0x1616c, timestamp: 0x31882 Interval: 65
+
+04:06:28  Maximum server connections 1 
+04:06:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+04:06:28  Pre-dropped log file number 4 has been deleted from DBspace 1.
+04:06:28  Checkpoint Completed:  duration was 0 seconds.
+04:06:28  Tue Jun 10 - loguniq 7, logpos 0x1816c, timestamp: 0x3188f Interval: 66
+
+04:06:28  Maximum server connections 1 
+04:06:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+04:06:28  Pre-dropped log file number 5 has been deleted from DBspace 1.
+04:06:28  Checkpoint Completed:  duration was 0 seconds.
+04:06:28  Tue Jun 10 - loguniq 7, logpos 0x1a16c, timestamp: 0x3189c Interval: 67
+
+04:06:28  Maximum server connections 1 
+04:06:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+04:06:28  Pre-dropped log file number 6 has been deleted from DBspace 1.
+04:06:28  Checkpoint Completed:  duration was 0 seconds.
+04:06:28  Tue Jun 10 - loguniq 7, logpos 0x1c16c, timestamp: 0x318a9 Interval: 68
+
+04:06:28  Maximum server connections 1 
+04:06:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 2, Llog used 2
+
+04:06:28  Checkpoint Completed:  duration was 0 seconds.
+04:06:28  Tue Jun 10 - loguniq 7, logpos 0x1e1c8, timestamp: 0x318b5 Interval: 69
+
+04:06:28  Maximum server connections 1 
+04:06:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 0, Llog used 2
+
+04:06:28  'db1_kg' - New logging mode: UNBUFFERED
+04:06:28  'db2_kg' - New logging mode: UNBUFFERED
+04:11:43  Checkpoint Completed:  duration was 0 seconds.
+04:11:43  Tue Jun 10 - loguniq 7, logpos 0x24018, timestamp: 0x3195a Interval: 70
+
+04:11:43  Maximum server connections 1 
+04:11:43  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 34, Llog used 6
+
+04:16:15  Logical Log 7 Complete, timestamp: 0x360dd.
+04:16:16  Logical Log 8 Complete, timestamp: 0x3b01a.
+04:16:16  Performance Advisory: Long transactions are causing blocking checkpoints.
+04:16:16   Results: Transactions are being blocked until the checkpoint is complete.
+04:16:16   Action: Increase the logical log space size.
+04:16:16  Checkpoint Completed:  duration was 0 seconds.
+04:16:16  Tue Jun 10 - loguniq 10, logpos 0x18, timestamp: 0x3b9d9 Interval: 71
+
+04:16:16  Maximum server connections 1 
+04:16:16  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 33, Llog used 7644
+
+04:16:17  Performance Advisory: Based on the current workload, the logical log space might be too small to
+accommodate the time it takes to flush the buffer pool.
+04:16:17   Results: The server might block transactions during checkpoints.
+04:16:17   Action: If transactions are blocked during the checkpoint, increase the size of the
+ logical log space to at least 597940 KB.
+04:16:17  Performance Advisory: The logical log space is too small for automatic checkpoints.
+04:16:17   Results: Automatic checkpoints are disabled.
+04:16:17   Action: To enable automatic checkpoints, increase the logical log space to at least 597940
+ KB.
+04:16:17  Logical Log 9 Complete, timestamp: 0x40046.
+04:16:17  Logical Log 10 Complete, timestamp: 0x40046.
+04:16:18  Logical Log 11 Complete, timestamp: 0x455b5.
+04:16:18  Checkpoint Completed:  duration was 0 seconds.
+04:16:18  Tue Jun 10 - loguniq 13, logpos 0x18, timestamp: 0x45ad0 Interval: 72
+
+04:16:18  Maximum server connections 1 
+04:16:18  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 25, Llog used 7680
+
+04:16:19  Logical Log 12 Complete, timestamp: 0x4aec7.
+04:16:19  Logical Log 13 Complete, timestamp: 0x4aec7.
+04:16:20  Logical Log 14 Complete, timestamp: 0x4f0af.
+04:16:20  Checkpoint Completed:  duration was 0 seconds.
+04:16:20  Tue Jun 10 - loguniq 16, logpos 0x18, timestamp: 0x4fbc6 Interval: 73
+
+04:16:20  Maximum server connections 1 
+04:16:20  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 26, Llog used 7680
+
+04:16:21  Logical Log 15 Complete, timestamp: 0x54ad9.
+04:16:21  Logical Log 16 Complete, timestamp: 0x54ad9.
+04:16:22  Logical Log 17 Complete, timestamp: 0x58ec9.
+04:21:40  Checkpoint Completed:  duration was 0 seconds.
+04:21:40  Tue Jun 10 - loguniq 18, logpos 0x76e018, timestamp: 0x58fad Interval: 74
+
+04:21:40  Maximum server connections 1 
+04:21:40  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 56, Llog used 7022
+
+04:26:40  Checkpoint Completed:  duration was 0 seconds.
+04:26:40  Tue Jun 10 - loguniq 18, logpos 0x770018, timestamp: 0x58fc0 Interval: 75
+
+04:26:40  Maximum server connections 1 
+04:26:40  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 11, Llog used 2
+
+04:35:34  Logical Log 18 Complete, timestamp: 0x5abba.
+04:35:35  Logical Log 19 Complete, timestamp: 0x5fa2e.
+04:36:40  Checkpoint Completed:  duration was 0 seconds.
+04:36:40  Tue Jun 10 - loguniq 20, logpos 0x715018, timestamp: 0x5fa72 Interval: 76
+
+04:36:40  Maximum server connections 1 
+04:36:40  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 69, Llog used 5029
+
+04:41:40  Checkpoint Completed:  duration was 0 seconds.
+04:41:40  Tue Jun 10 - loguniq 20, logpos 0x717018, timestamp: 0x5fa88 Interval: 77
+
+04:41:40  Maximum server connections 1 
+04:41:40  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 10, Llog used 2
+
+04:47:27  Logical Log 20 Complete, timestamp: 0x69ba3.
+04:47:27  Logical Log 21 Complete, timestamp: 0x69ba3.
+04:47:28  Aborting Long Transaction: tx: 0x0EEC5600 username: informix uid: 6
+04:47:28  Checkpoint Completed:  duration was 0 seconds.
+04:47:28  Tue Jun 10 - loguniq 22, logpos 0x826284, timestamp: 0x6d025 Interval: 78
+
+04:47:28  Maximum server connections 1 
+04:47:28  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 2, Plog used 5625, Llog used 5395
+
+04:47:28  Long Transaction 0x0EEC5600 Aborted. Rollback Duration: 1 Second 
+04:47:29  Checkpoint Completed:  duration was 0 seconds.
+04:47:29  Tue Jun 10 - loguniq 22, logpos 0x987dd8, timestamp: 0x78f5f Interval: 79
+
+04:47:29  Maximum server connections 2 
+04:47:29  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 1, Plog used 5625, Llog used 353
+
+04:49:16  Checkpoint Completed:  duration was 0 seconds.
+04:49:16  Tue Jun 10 - loguniq 23, logpos 0x50c, timestamp: 0x7941a Interval: 80
+
+04:49:16  Maximum server connections 2 
+04:49:16  Checkpoint Statistics - Avg. Txn Block Time 0.001, # Txns blocked 0, Plog used 137, Llog used 121
+
+04:49:16  Logical Log 22 Complete, timestamp: 0x811b2.
+04:49:16  Logical Log 23 Complete, timestamp: 0x811b2.
+04:49:49  Checkpoint Completed:  duration was 0 seconds.
+04:49:49  Tue Jun 10 - loguniq 25, logpos 0x10cc14, timestamp: 0x87587 Interval: 81
+
+04:49:49  Maximum server connections 2 
+04:49:49  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 1, Plog used 5625, Llog used 5708
+
+04:49:49  Logical Log 24 Complete, timestamp: 0x89598.
+04:55:06  Checkpoint Completed:  duration was 0 seconds.
+04:55:06  Tue Jun 10 - loguniq 25, logpos 0x582028, timestamp: 0x897d4 Interval: 82
+
+04:55:06  Maximum server connections 2 
+04:55:06  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 1261, Llog used 1142
+
+05:00:07  Checkpoint Completed:  duration was 0 seconds.
+05:00:07  Tue Jun 10 - loguniq 25, logpos 0x591018, timestamp: 0x8a0ab Interval: 83
+
+05:00:07  Maximum server connections 2 
+05:00:07  Checkpoint Statistics - Avg. Txn Block Time 0.001, # Txns blocked 0, Plog used 24, Llog used 15
+
+05:10:07  Checkpoint Completed:  duration was 0 seconds.
+05:10:07  Tue Jun 10 - loguniq 25, logpos 0x595018, timestamp: 0x8a13a Interval: 84
+
+05:10:07  Maximum server connections 2 
+05:10:07  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 44, Llog used 4
+
+05:11:52  Logical Log 25 Complete, timestamp: 0x8f2c5.
+05:11:52  Logical Log 26 Complete, timestamp: 0x8f2c5.
+05:11:52  Checkpoint Completed:  duration was 0 seconds.
+05:11:52  Tue Jun 10 - loguniq 28, logpos 0x18, timestamp: 0x90966 Interval: 85
+
+05:11:52  Maximum server connections 2 
+05:11:52  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 36, Llog used 6251
+
+05:11:53  Logical Log 27 Complete, timestamp: 0x92b8d.
+05:11:54  Logical Log 28 Complete, timestamp: 0x97682.
+05:11:54  Logical Log 29 Complete, timestamp: 0x97682.
+05:11:54  Checkpoint Completed:  duration was 0 seconds.
+05:11:54  Tue Jun 10 - loguniq 31, logpos 0x18, timestamp: 0x988db Interval: 86
+
+05:11:54  Maximum server connections 2 
+05:11:54  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 25, Llog used 7680
+
+05:11:55  Logical Log 30 Complete, timestamp: 0x9b8fb.
+05:11:55  Logical Log 31 Complete, timestamp: 0x9b8fb.
+05:11:56  Logical Log 32 Complete, timestamp: 0x9f06f.
+05:11:56  Checkpoint Completed:  duration was 0 seconds.
+05:11:56  Tue Jun 10 - loguniq 34, logpos 0x18, timestamp: 0xa084d Interval: 87
+
+05:11:56  Maximum server connections 2 
+05:11:56  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 25, Llog used 7680
+
+05:11:57  Logical Log 33 Complete, timestamp: 0xa3cc5.
+05:11:57  Logical Log 34 Complete, timestamp: 0xa3cc5.
+05:11:58  Logical Log 35 Complete, timestamp: 0xa7f53.
+05:11:58  Checkpoint Completed:  duration was 0 seconds.
+05:11:58  Tue Jun 10 - loguniq 37, logpos 0x18, timestamp: 0xa87c5 Interval: 88
+
+05:11:58  Maximum server connections 2 
+05:11:58  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 25, Llog used 7680
+
+05:11:59  Logical Log 36 Complete, timestamp: 0xacc01.
+05:11:59  Logical Log 37 Complete, timestamp: 0xacc01.
+05:11:59  Checkpoint Completed:  duration was 0 seconds.
+05:11:59  Tue Jun 10 - loguniq 40, logpos 0x18, timestamp: 0xb0727 Interval: 89
+
+05:11:59  Maximum server connections 2 
+05:11:59  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 25, Llog used 7680
+
+05:12:00  Logical Log 38 Complete, timestamp: 0xb11c0.
+05:12:00  Logical Log 39 Complete, timestamp: 0xb11c0.
+05:12:01  Logical Log 40 Complete, timestamp: 0xb5bf0.
+05:12:01  Checkpoint Completed:  duration was 0 seconds.
+05:12:01  Tue Jun 10 - loguniq 43, logpos 0x18, timestamp: 0xb869b Interval: 90
+
+05:12:01  Maximum server connections 2 
+05:12:01  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 26, Llog used 7680
+
+05:12:02  Logical Log 41 Complete, timestamp: 0xbaacf.
+05:12:02  Logical Log 42 Complete, timestamp: 0xbaacf.
+05:12:03  Logical Log 43 Complete, timestamp: 0xbeea4.
+05:12:03  Logical Log 44 Complete, timestamp: 0xbeea4.
+05:12:03  Checkpoint Completed:  duration was 0 seconds.
+05:12:03  Tue Jun 10 - loguniq 46, logpos 0x18, timestamp: 0xc0616 Interval: 91
+
+05:12:03  Maximum server connections 2 
+05:12:03  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 25, Llog used 7680
+
+05:12:04  Logical Log 45 Complete, timestamp: 0xc3206.
+05:12:04  Logical Log 46 Complete, timestamp: 0xc3206.
+05:12:05  Logical Log 47 Complete, timestamp: 0xc76cf.
+05:12:05  Checkpoint Completed:  duration was 0 seconds.
+05:12:05  Tue Jun 10 - loguniq 49, logpos 0x18, timestamp: 0xc8589 Interval: 92
+
+05:12:05  Maximum server connections 2 
+05:12:05  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 25, Llog used 7680
+
+05:12:06  Logical Log 48 Complete, timestamp: 0xcc391.
+05:12:06  Logical Log 49 Complete, timestamp: 0xcc391.
+05:12:07  Logical Log 50 Complete, timestamp: 0xcfa15.
+05:17:29  Checkpoint Completed:  duration was 0 seconds.
+05:17:29  Tue Jun 10 - loguniq 51, logpos 0x76c018, timestamp: 0xcfa78 Interval: 93
+
+05:17:29  Maximum server connections 2 
+05:17:29  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 46, Llog used 7020
+
+06:35:50  Checkpoint Completed:  duration was 0 seconds.
+06:35:50  Tue Jun 10 - loguniq 51, logpos 0x78e018, timestamp: 0xcfd2c Interval: 94
+
+06:35:50  Maximum server connections 2 
+06:35:50  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 35, Llog used 34
+
+06:36:58  Logical Log 51 Complete, timestamp: 0xe53ab.
+06:36:58  Logical Log 52 Complete, timestamp: 0xe53ab.
+06:40:50  Checkpoint Completed:  duration was 0 seconds.
+06:40:50  Tue Jun 10 - loguniq 53, logpos 0x52b018, timestamp: 0xe551d Interval: 95
+
+06:40:50  Maximum server connections 2 
+06:40:50  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 373, Llog used 4509
+
+06:45:58  Checkpoint Completed:  duration was 0 seconds.
+06:45:58  Tue Jun 10 - loguniq 53, logpos 0x52d018, timestamp: 0xe5532 Interval: 96
+
+06:45:58  Maximum server connections 2 
+06:45:58  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 11, Llog used 2
+
+06:45:59  IBM Informix Dynamic Server Stopped.
+
+06:46:03  IBM Informix Dynamic Server Started.
+06:46:03  Warning: The IBM IDS Developer Edition license restriction limits
+06:46:03  the total shared memory size for this server to 1048576 KB.
+06:46:03  The maximum allowable shared memory was reset to this size to start the database server. 
+06:46:03  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 06:46:03 2014
+
+06:46:03  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+06:46:03  Booting Language <c> from module <>
+06:46:03  Loading Module <CNULL>
+06:46:03  Booting Language <builtin> from module <>
+06:46:03  Loading Module <BUILTINNULL>
+06:46:09  DR: DRAUTO is 0 (Off)
+06:46:09  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+06:46:09  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+06:46:10  IBM Informix Dynamic Server Initialized -- Shared Memory Initialized.
+
+06:46:10  Started 1 B-tree scanners.
+06:46:10  B-tree scanner threshold set at 5000.
+06:46:10  B-tree scanner range scan size set to -1.
+06:46:10  B-tree scanner ALICE mode set to 6.
+06:46:10  B-tree scanner index compression level set to med.
+06:46:10  Physical Recovery Started at Page (6:4496).
+06:46:10  Physical Recovery Complete: 0 Pages Examined, 0 Pages Restored.
+06:46:10  Logical Recovery Started.
+06:46:10  10 recovery worker threads will be started.
+06:46:11  Logical Recovery has reached the transaction cleanup phase.
+06:46:11  Logical Recovery Complete.
+	  0 Committed, 0 Rolled Back, 0 Open, 0 Bad Locks
+
+06:46:12  Onconfig parameter STORAGE_FULL_ALARM modified from 0 to 3.
+06:46:12  Onconfig parameter LOGFILES modified from 6 to 4.
+06:46:12  Onconfig parameter TAPEDEV modified from NUL to C:\ol_kg_backup.
+06:46:12  Onconfig parameter LTAPEDEV modified from NUL to C:\ol_kg_lbackup.
+06:46:12  Dataskip is now OFF for all dbspaces
+06:46:12  Init operation complete - Mode Online
+06:46:12  Checkpoint Completed:  duration was 0 seconds.
+06:46:12  Tue Jun 10 - loguniq 53, logpos 0x52f0b4, timestamp: 0xe5565 Interval: 97
+
+06:46:12  Maximum server connections 0 
+06:46:12  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 6, Llog used 1
+
+06:46:12  On-Line Mode
+06:46:15  SCHAPI: Started dbScheduler thread.
+06:46:15  Auto Registration is synced
+06:46:15  Booting Language <spl> from module <>
+06:46:15  Loading Module <SPLNULL>
+06:46:15  SCHAPI: Started 2 dbWorker threads.
+06:46:17  Defragmenter cleaner thread now running
+06:46:17  Defragmenter cleaner thread cleaned:0 partitions
+06:46:26  Checkpoint Completed:  duration was 0 seconds.
+06:46:26  Tue Jun 10 - loguniq 53, logpos 0x535018, timestamp: 0xe57b6 Interval: 98
+
+06:46:26  Maximum server connections 0 
+06:46:26  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 9, Llog used 6
+
+06:46:26  Level 0 Archive started on rootdbs, danekg1, danekg2, logkg
+06:46:28  Archive on rootdbs, danekg1, danekg2, logkg Completed.
+06:46:40  Logical Log 53 - Backup Started
+06:46:40  Logical Log 53 - Backup Completed
+06:46:41  Logical Log 53 Complete, timestamp: 0xe5840.
+06:47:15  Loading Module <$INFORMIXDIR/extend/ifxmngr/ifxmngr.bld>
+06:47:16  The C Language Module <C:\PROGRA~1\IBM\Informix\11.70/extend/ifxmngr/ifxmngr.bld> loaded
+06:47:20  Performance Advisory: Logical log file size might be too small for a
+          checkpoint to complete.
+06:47:20   Results: The size of individual logical log files is too small for
+          the current workload, resulting in each log file filling very
+          quickly. If log files fill in less than 30 seconds, the checkpoint
+          might remain blocked because the last log file fills during the time
+          needed to perform the checkpoint.
+06:47:20   Action: Increase the size of the individual logical log files so
+          that it takes at least 30 seconds to fill each one. Look at the
+          online log to determine how quickly the log files are filling, and
+          then increase the size of the files proportionately.
+06:47:20  Performance Advisory: Long transactions are causing blocking checkpoints.
+06:47:20   Results: Transactions are being blocked until the checkpoint is complete.
+06:47:20   Action: Increase the logical log space size.
+06:47:21  Checkpoint Completed:  duration was 0 seconds.
+06:47:21  Tue Jun 10 - loguniq 56, logpos 0x9bc, timestamp: 0xf1437 Interval: 99
+
+06:47:21  Maximum server connections 1 
+06:47:21  Checkpoint Statistics - Avg. Txn Block Time 0.009, # Txns blocked 0, Plog used 53, Llog used 5127
+
+06:47:21  Logical Log 54 Complete, timestamp: 0xf4200.
+06:47:21  Logical Log 55 Complete, timestamp: 0xf4200.
+06:47:24  Performance Advisory: Based on the current workload, the logical log space might be too small to
+accommodate the time it takes to flush the buffer pool.
+06:47:24   Results: The server might block transactions during checkpoints.
+06:47:24   Action: If transactions are blocked during the checkpoint, increase the size of the
+ logical log space to at least 57400 KB.
+06:47:24  Performance Advisory: The logical log space is too small for automatic checkpoints.
+06:47:24   Results: Automatic checkpoints are disabled.
+06:47:24   Action: To enable automatic checkpoints, increase the logical log space to at least 57400
+ KB.
+06:49:31  Logical Log 56 Complete, timestamp: 0xf8b51.
+06:49:51  Checkpoint Completed:  duration was 0 seconds.
+06:49:51  Tue Jun 10 - loguniq 57, logpos 0x1b6018, timestamp: 0xf8b89 Interval: 100
+
+06:49:51  Maximum server connections 1 
+06:49:51  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 54, Llog used 2998
+
+06:50:58  Logical Log 54 - Backup Started
+06:50:58  Logical Log 54 - Backup Completed
+06:50:58  Logical Log 55 - Backup Started
+06:50:58  Logical Log 55 - Backup Completed
+06:50:58  Logical Log 56 - Backup Started
+06:50:58  Logical Log 56 - Backup Completed
+06:51:01  Logical Log 57 - Backup Started
+06:51:01  Logical Log 57 - Backup Completed
+06:51:01  Logical Log 57 Complete, timestamp: 0xf8bfc.
+06:52:39  Checkpoint Completed:  duration was 0 seconds.
+06:52:39  Tue Jun 10 - loguniq 58, logpos 0x8018, timestamp: 0xf8c2f Interval: 101
+
+06:52:39  Maximum server connections 2 
+06:52:39  Checkpoint Statistics - Avg. Txn Block Time 0.000, # Txns blocked 0, Plog used 17, Llog used 23
+
+06:52:40  IBM Informix Dynamic Server Stopped.
+
+06:55:09  IBM Informix Dynamic Server Started.
+06:55:09  Warning: The IBM IDS Developer Edition license restriction limits
+06:55:09  the total shared memory size for this server to 1048576 KB.
+06:55:09  The maximum allowable shared memory was reset to this size to start the database server. 
+06:55:09  Requested shared memory segment size rounded from 32656KB to 32704KB
+
+Tue Jun 10 06:55:09 2014
+
+06:55:09  DUMPDIR parameter not specified in ONCONFIG. Setting it to default 'C:\PROGRA~1\IBM\Informix\11.70\tmp'
+06:55:09  Booting Language <c> from module <>
+06:55:09  Loading Module <CNULL>
+06:55:09  Booting Language <builtin> from module <>
+06:55:09  Loading Module <BUILTINNULL>
+06:55:15  DR: DRAUTO is 0 (Off)
+06:55:15  DR: ENCRYPT_HDR is 0 (HDR encryption Disabled)
+06:55:15  IBM Informix Dynamic Server Version 11.70.TC2DE Software Serial Number AAA#B000000
+06:55:16  Warning: stat() failed for chunk file C:\ol_kg_data\danekg1_1.000
+06:55:16  Cannot Open Primary Chunk 'C:\ol_kg_data\danekg1_1.000', errno = 2
+06:55:16  Warning: stat() failed for chunk file C:\ol_kg_data\danekg1_2.000
+06:55:16  Cannot Open Primary Chunk 'C:\ol_kg_data\danekg1_2.000', errno = 2
+06:55:16  IBM Informix Dynamic Server Initialized -- Shared Memory Initialized.
+
+06:55:16  Started 1 B-tree scanners.
+06:55:16  B-tree scanner threshold set at 5000.
+06:55:16  B-tree scanner range scan size set to -1.
+06:55:16  B-tree scanner ALICE mode set to 6.
+06:55:16  B-tree scanner index compression level set to med.
+06:55:16  Physical Recovery Started at Page (6:4635).
+06:55:16  Physical Recovery Complete: 6 Pages Examined, 6 Pages Restored.
+06:55:16  Assert Warning: pthdrpage:ptalloc:bad bfget
+06:55:16  IBM Informix Dynamic Server Version 11.70.TC2DE
+06:55:16   Who: Session(10, informix@akademia-3ef320, 0, 00000000)
+		Thread(23, fast_rec, 0, 1)
+		File: rspartn.c Line: 8315
+06:55:16   Results: Cannot use TBLSpace page for TBLSpace 2097153
+06:55:16   Action: Run 'oncheck -pt 2097153'
+06:55:16  stack trace for pid 3948 written to C:\PROGRA~1\IBM\Informix\11.70\tmp\af.3ff8fb4
+06:55:17   See Also: C:\PROGRA~1\IBM\Informix\11.70\tmp\af.3ff8fb4
+06:55:18  Releasing server from system block
+06:55:21  pthdrpage:ptalloc:bad bfget
+06:55:22  pthdrpage:ptalloc:bad bfget
+06:55:22  Assert Failed: Chunk 2 is being taken OFFLINE.
+06:55:22  IBM Informix Dynamic Server Version 11.70.TC2DE
+06:55:22   Who: Session(10, informix@akademia-3ef320, 0, 00000000)
+		Thread(23, fast_rec, 0, 1)
+		File: rspartn.c Line: 8339
+06:55:22   Results: Cannot Open DBspace 2.
+06:55:22   Action: Restore space containing this chunk from the archive.
+06:55:22  stack trace for pid 3948 written to C:\PROGRA~1\IBM\Informix\11.70\tmp\af.3ff8fb4
+06:55:22   See Also: C:\PROGRA~1\IBM\Informix\11.70\tmp\af.3ff8fb4, shmem.3ff8fb4.0
+06:55:24  Releasing server from system block
+06:55:27  Chunk 2 is being taken OFFLINE.
+06:55:28  Assert Warning: Chunk 2 is being taken OFFLINE.
+06:55:28  IBM Informix Dynamic Server Version 11.70.TC2DE
+06:55:28   Who: Session(10, informix@akademia-3ef320, 0, 00000000)
+		Thread(23, fast_rec, 0, 1)
+		File: rsmirror.c Line: 1893
+06:55:28   Results: Dynamic Server will block at next checkpoint
+06:55:28   Action: Shutdown (onmode -k) or override (onmode -O)
+06:55:28  stack trace for pid 3948 written to C:\PROGRA~1\IBM\Informix\11.70\tmp\af.3ff8fb4
+06:55:29   See Also: C:\PROGRA~1\IBM\Informix\11.70\tmp\af.3ff8fb4
+06:55:30  Releasing server from system block
+06:55:33  Chunk 2 is being taken OFFLINE.
+06:55:33  Chunk 2 is being taken OFFLINE.
+06:55:33  Cannot Open DBspace 2.
+06:55:33  Logical Recovery Started.
+06:55:33  10 recovery worker threads will be started.
+06:55:33  Logical Recovery has reached the transaction cleanup phase.
+06:55:33  Warning:log read ahead problem during rollback. Errno : 135
+06:55:33  Warning:log read ahead problem during rollback. Errno : 135
+06:55:33  Warning:log read ahead problem during rollback. Errno : 135
+06:55:33  Warning:log read ahead problem during rollback. Errno : 135
+06:55:33  Warning:log read ahead problem during rollback. Errno : 135
+06:55:34  Logical Recovery Complete.
+	  0 Committed, 1 Rolled Back, 0 Open, 0 Bad Locks
+
+06:55:34  Onconfig parameter STORAGE_FULL_ALARM modified from 0 to 3.
+06:55:34  Dataskip is now OFF for all dbspaces
+06:55:34  Init operation complete - Mode Online
+06:55:34  Checkpoint blocked by down space, waiting for override or shutdown
+06:55:37  SCHAPI: Started dbScheduler thread.
+06:55:37  Auto Registration is synced
+06:55:37  Booting Language <spl> from module <>
+06:55:37  Loading Module <SPLNULL>
+06:55:37  SCHAPI: Started 2 dbWorker threads.
+06:55:39  Defragmenter cleaner thread now running
+06:55:39  Defragmenter cleaner thread cleaned:0 partitions

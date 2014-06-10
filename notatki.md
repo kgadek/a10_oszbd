@@ -283,7 +283,7 @@
 	BEGIN WORK;
 	EXECUTE PROCEDURE bluh();
 	COMMIT WORK;
-	DROP PROCEDURE bloh;
+	DROP PROCEDURE bluh;
 
    4.* Wstaw 5 000 wierszy do tabeli tab1_xx, nie komituj transakcji
 
@@ -296,7 +296,7 @@
 	END PROCEDURE;
 	BEGIN WORK;
 	EXECUTE PROCEDURE blyh();
-	DROP PROCEDURE bloh;
+	DROP PROCEDURE blyh;
 
    5.* Wykonaj checkpoint (full checkpoint), wszystkie dane puli buforów powinny zostać zapisane na dysk, zweryfikuj fakt wykonania checkpointu w „message logu”, zweryfikuj stan kolejek LRU
 
@@ -306,9 +306,23 @@
    6.* (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
    7.* Pamiętaj o backupowaniu logów
    8.* Zasymuluj awarię (przejdź do trybu ofline, usuń pliki tworzące przestrzeń dane1_xx)
+
+	>> onmode -k
+	>> del C:\ol_kg_data\danekg1_1.000
+	>> del C:\ol_kg_data\danekg1_2.000
+
    9.* Spróbuj przejść do trybu online
+
+	>> starts ol2014_kg
+
    10.* Sprawdź status dbspace’ów
    11.* Odtwórz dane z backupu
+
+	>> ontape -r -D danekg1
+	>> type nul >>C:\ol_kg_data\danekg1_1.000
+	>> type nul >>C:\ol_kg_data\danekg1_2.000
+	>> ontape -r -D danekg1
+
    12.* Wiersze wstawione do tabeli tab2_xx powinny zostać odtworzone
    13.* Wiersze wstawione do tabeli tab1_xx powinny zostać wycofane
    14.* (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
