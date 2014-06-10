@@ -1,0 +1,112 @@
+
+
+DBspace Usage Report: danekg2             Owner: informix  Created: 06/10/2014
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     4 C:\ol_kg_data\danekg2_1.000                    4    10240     1455     8785
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ danekg2:'informix'.TBLSpace                                          3       50
+ db2_kg:'informix'.systables                                         53        8
+ db2_kg:'informix'.syscolumns                                        61       16
+ db2_kg:'informix'.sysindices                                        77       64
+ db2_kg:'informix'.systabauth                                       141        8
+ db2_kg:'informix'.syscolauth                                       149        8
+ db2_kg:'informix'.sysviews                                         157        8
+ db2_kg:'informix'.sysusers                                         165        8
+ db2_kg:'informix'.sysdepend                                        173        8
+ db2_kg:'informix'.syssynonyms                                      181        8
+ db2_kg:'informix'.syssyntable                                      189        8
+ db2_kg:'informix'.sysconstraints                                   197        8
+ db2_kg:'informix'.sysreferences                                    205        8
+ db2_kg:'informix'.syschecks                                        213        8
+ db2_kg:'informix'.sysdefaults                                      221        8
+ db2_kg:'informix'.syscoldepend                                     229        8
+ db2_kg:'informix'.sysprocedures                                    237        8
+ db2_kg:'informix'.sysprocbody                                      245        8
+ db2_kg:'informix'.sysprocplan                                      253        8
+ db2_kg:'informix'.sysprocauth                                      261        8
+ db2_kg:'informix'.sysblobs                                         269        8
+ db2_kg:'informix'.sysopclstr                                       277        8
+ db2_kg:'informix'.systriggers                                      285        8
+ db2_kg:'informix'.systrigbody                                      293        8
+ db2_kg:'informix'.sysdistrib                                       301        8
+ db2_kg:'informix'.sysfragments                                     309        8
+ db2_kg:'informix'.sysfragauth                                      317        8
+ db2_kg:'informix'.sysxtdtypes                                      325        8
+ db2_kg:'informix'.sysxtddesc                                       333        8
+ db2_kg:'informix'.sysattrtypes                                     341        8
+ db2_kg:'informix'.sysinherits                                      349        8
+ db2_kg:'informix'.syscolattribs                                    357        8
+ db2_kg:'informix'.syslogmap                                        365        8
+ db2_kg:'informix'.syscasts                                         373       16
+ db2_kg:'informix'.sysxtdtypeauth                                   389        8
+ db2_kg:'informix'.sysams                                           397        8
+ db2_kg:'informix'.systabamdata                                     405        8
+ db2_kg:'informix'.sysopclasses                                     413        8
+ db2_kg:'informix'.syserrors                                        421        8
+ db2_kg:'informix'.systraceclasses                                  429        8
+ db2_kg:'informix'.systracemsgs                                     437        8
+ db2_kg:'informix'.sysroutinelangs                                  445        8
+ db2_kg:'informix'.syslangauth                                      453        8
+ db2_kg:'informix'.sysaggregates                                    461        8
+ db2_kg:'informix'.sysroleauth                                      469        8
+ db2_kg:'informix'.sysobjstate                                      477        8
+ db2_kg:'informix'.sysviolations                                    485        8
+ db2_kg:'informix'.syssequences                                     493        8
+ db2_kg:'informix'.sysdirectives                                    501        8
+ danekg2:'informix'.TBLSpace                                        509       50
+ db2_kg:'informix'.sysxasourcetypes                                 559        8
+ db2_kg:'informix'.sysxadatasources                                 567        8
+ db2_kg:'informix'.sysseclabelcomponents                            575        8
+ db2_kg:'informix'.sysseclabelcomponentelements                     583        8
+ db2_kg:'informix'.syssecpolicies                                   591        8
+ db2_kg:'informix'.syssecpolicycomponents                           599        8
+ db2_kg:'informix'.syssecpolicyexemptions                           607        8
+ db2_kg:'informix'.sysseclabels                                     615        8
+ db2_kg:'informix'.sysseclabelnames                                 623        8
+ db2_kg:'informix'.sysseclabelauth                                  631        8
+ db2_kg:'informix'.syssurrogateauth                                 639        8
+ db2_kg:'informix'.sysproccolumns                                   647        8
+ db2_kg:'informix'.sysexternal                                      655        8
+ db2_kg:'informix'.sysextdfiles                                     663        8
+ db2_kg:'informix'.sysextcols                                       671        8
+ db2_kg:'informix'.sysautolocate                                    679        8
+ db2_kg:'informix'.sysfragdist                                      687        8
+ db2_kg:'informix'.sysprocbody                                      695        8
+ db2_kg:'informix'.sysprocedures                                    703        8
+ db2_kg:'informix'.sysprocbody                                      711       16
+ db2_kg:'informix'.sysprocauth                                      727        8
+ db2_kg:'informix'.sysprocbody                                      735       32
+ db2_kg:'informix'.sysprocedures                                    767       16
+ db2_kg:'informix'.sysprocbody                                      783       64
+ db2_kg:'informix'.sysproccolumns                                   847        8
+ db2_kg:'informix'.sysprocedures                                    855       32
+ db2_kg:'informix'.sysprocauth                                      887       16
+ db2_kg:'informix'.sysprocbody                                      903      128
+ db2_kg:'informix'.sysprocplan                                     1031        8
+ db2_kg:'informix'.sysproccolumns                                  1039       16
+ db2_kg:'informix'.sysprocplan                                     1055       16
+ db1_kg:'informix'.tab_frag1_kg                                    1071      384
+ FREE                                                              1455     8785
+
+ Total Used:     1455
+ Total Free:     8785
+
+
+ Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
+     5 C:\ol_kg_data\danekg2_2.000                    4     7680        3     7677
+
+ Description                                                   Offset(p)  Size(p)
+ ------------------------------------------------------------- -------- --------
+ RESERVED PAGES                                                       0        2
+ CHUNK FREELIST PAGE                                                  2        1
+ FREE                                                                 3     7677
+
+ Total Used:        3
+ Total Free:     7677
+

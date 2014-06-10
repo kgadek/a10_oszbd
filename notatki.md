@@ -216,8 +216,36 @@
    21.* Ile miejsca zajmuje tabela tab1_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów itp.
    22.* (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
    23.* Stwórz w bazie danych db1_xx tabelę tab_frag1_xx o kolumcach: id int (klucz główny), nazwa char 200, kod char(1)
+
+	>> CREATE TABLE tab_frag1_kg
+	(id int, nazwa char(200), kod char(1), PRIMARY KEY(id))
+	FRAGMENT BY EXPRESSION
+	kod = 'A' or kod = 'B' in danekg1,
+	kod = 'C' IN danekg2;
+
    24.* Pofragmentuj tabelę pomiędzy przestrzenie danexx1, danexx2 – fragmentacja według wartości pola kod – A,B – przestrzeń danexx1, C – przestrzeń danexx2
    25.* Wstaw 10 000 wierszy do tej tabeli o wartości pola kod = A, 50 000 wierszy o wartości pola kod = B, 7 000 wierszy do tej tabeli o wartości pola kod = C,
+
+	>> CREATE PROCEDURE bloh()
+		DEFINE i INTEGER;
+		FOR i=1 TO 10000
+			INSERT INTO tab_frag1_kg (id,nazwa,kod)
+			VALUES (i, 'Ala von New Kotstan', 'A');
+		END FOR;
+
+		FOR i=1 TO 50000
+			INSERT INTO tab_frag1_kg (id,nazwa,kod)
+			VALUES (10000+i, 'Bob avec Alicja, pas du Ewa', 'B');
+		END FOR;
+
+		FOR i=1 TO 7000
+			INSERT INTO tab_frag1_kg (id,nazwa,kod)
+			VALUES (60000+i, 'Charlie', 'C');
+		END FOR;
+	END PROCEDURE;
+	EXECUTE PROCEDURE bloh();
+	DROP PROCEDURE bloh;
+
    26.* Pokaż w których dbspaceach/chunkach zostały umieszczone dane
    27.* Zmień strategię fragmentacji, – fragmentacja według wartości pola kod – A – przestrzeń danexx1, B,C – przestrzeń danexx2
    28.* Pokaż w których dbspaceach/chunkach zostały umieszczone dane

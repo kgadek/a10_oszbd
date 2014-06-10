@@ -1,0 +1,101 @@
+
+
+TBLspace Report for db1_kg:informix.tab_frag1_kg
+
+		  Table fragment partition danekg1 in DBspace danekg1
+
+    Physical Address               2:530
+    Creation date                  06/10/2014 05:05:31
+    TBLspace Flags                 801        Page Locking
+                                              TBLspace use 4 bit bit-maps
+    Maximum row size               205       
+    Number of special columns      0         
+    Number of keys                 0         
+    Number of extents              7         
+    Current serial value           1         
+    Current SERIAL8 value          1         
+    Current BIGSERIAL value        1         
+    Current REFID value            1         
+    Pagesize (k)                   4         
+    First extent size              8         
+    Next extent size               512       
+    Number of pages allocated      3584      
+    Number of pages used           3159      
+    Number of data pages           3158      
+    Number of rows                 60000     
+    Partition partnum              2097223   
+    Partition lockid               2097223   
+
+    Extents                       
+         Logical Page     Physical Page        Size Physical Pages
+                    0            2:1335          32         32
+                   32            2:1371          96         96
+                  128            2:1475         128        128
+                  256            2:1619         128        128
+                  384            2:1779         512        512
+                  896            2:2355         896        896
+                 1792            2:3379        1792       1792
+
+		  Table fragment partition danekg2 in DBspace danekg2
+
+    Physical Address               4:526
+    Creation date                  06/10/2014 05:05:31
+    TBLspace Flags                 801        Page Locking
+                                              TBLspace use 4 bit bit-maps
+    Maximum row size               205       
+    Number of special columns      0         
+    Number of keys                 0         
+    Number of extents              1         
+    Current serial value           1         
+    Current SERIAL8 value          1         
+    Current BIGSERIAL value        1         
+    Current REFID value            1         
+    Pagesize (k)                   4         
+    First extent size              8         
+    Next extent size               128       
+    Number of pages allocated      384       
+    Number of pages used           370       
+    Number of data pages           369       
+    Number of rows                 7000      
+    Partition partnum              3145795   
+    Partition lockid               2097223   
+
+    Extents                       
+         Logical Page     Physical Page        Size Physical Pages
+                    0            4:1071         384        384
+
+		  Index  102_3 fragment partition danekg1 in DBspace danekg1
+
+    Physical Address               2:531
+    Creation date                  06/10/2014 05:05:31
+    TBLspace Flags                 801        Page Locking
+                                              TBLspace use 4 bit bit-maps
+    Maximum row size               205       
+    Number of special columns      0         
+    Number of keys                 1         
+    Number of extents              8         
+    Current serial value           1         
+    Current SERIAL8 value          1         
+    Current BIGSERIAL value        1         
+    Current REFID value            1         
+    Pagesize (k)                   4         
+    First extent size              4         
+    Next extent size               128       
+    Number of pages allocated      384       
+    Number of pages used           284       
+    Number of data pages           0         
+    Number of rows                 0         
+    Partition partnum              2097224   
+    Partition lockid               2097223   
+
+    Extents                       
+         Logical Page     Physical Page        Size Physical Pages
+                    0            2:1331           4          4
+                    4            2:1367           4          4
+                    8            2:1467           8          8
+                   16            2:1603          16         16
+                   32            2:1747          32         32
+                   64            2:2291          64         64
+                  128            2:3251         128        128
+                  256            2:5171         128        128
+
