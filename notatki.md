@@ -145,6 +145,11 @@
 5. Zarządzanie przestrzenią dyskową 2
 
    1.* Jeśli baza db1_xx nie była utworzona w „trybie logowania”, zmień tryb logowania bazy na unbuffered (co oznaczają poszczególne „tryby logowania” baz)
+
+	>> SELECT * FROM sysdatabases WHERE name='db1_kg';
+	>> ondblog unbuf
+	>> ontape -s
+
    2.* Stwórz w bazie danych db1_xx tabelę tab1_xx o kolumcach: id int (klucz główny), nazwa char 1200
    3.* Wstaw 30 000 wierszy do tej tabeli
    4.* Zaobserwuj proces wypełniania logu logicznego
