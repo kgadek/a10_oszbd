@@ -258,8 +258,19 @@
 
 6. Archiwizacja i odtwarzanie
 
+	>> mkdir C:\ol_kg_backup
+	>> mkdir C:\ol_kg_lbackup
+	>> onmode -ky
+	>> starts ol2014_kg
+
    1.* Skonfiguruj i wykonaj backup danych
+
+	>> ontape -s
+
    2.* Skonfiguruj i wykonaj backup logów
+
+	>> ontape -a
+
    3.* Wstaw 10 000 wierszy do tabeli tab2_xx, pamiętaj o zakomitowaniu transakcji
    4.* Wstaw 5 000 wierszy do tabeli tab1_xx, nie komituj transakcji
    5.* Wykonaj checkpoint (full checkpoint), wszystkie dane puli buforów powinny zostać zapisane na dysk, zweryfikuj fakt wykonania checkpointu w „message logu”, zweryfikuj stan kolejek LRU

@@ -80,7 +80,7 @@ PHYSBUFF 128
 # LOGBUFF      - The size of the logical log buffer, in KB
 ###################################################################
 
-LOGFILES 6
+LOGFILES        4               
 LOGSIZE 10000
 DYNAMIC_LOGS    2
 LOGBUFF 64
@@ -404,7 +404,7 @@ HETERO_COMMIT 0
 #                positive integral multiple of TAPEBLK.
 ###################################################################
 
-TAPEDEV NUL
+TAPEDEV C:\ol_kg_backup
 TAPEBLK 16
 TAPESIZE 0
 
@@ -419,7 +419,7 @@ TAPESIZE 0
 #                positive integral multiple of LTAPEBLK.
 ###################################################################
 
-LTAPEDEV NUL
+LTAPEDEV C:\ol_kg_lbackup
 LTAPEBLK 16
 LTAPESIZE 0
 
