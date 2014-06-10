@@ -45,6 +45,12 @@ Zarządzanie przestrzenią dyskową
 	>> onspaces -a danekg2 -p C:\ol_kg_data\danekg2_2.000 -o 0 -s 30720 -m C:\ol_kg_mirror\danekg2_2_mirror.000 0
 
    * Stwórz przestrzeń (dbspace) przeznaczoną na logi o nazwie logxx. Rozmiar przestrzeni to 30 MB w jednym chunku o nazwie nazwie logxx. Pliki umieść w katalogu c:\ol_xx_log. Włącz mirroring dla tej przestrzeni.
+
+	>> mkdir C:\ol_kg_log\
+	>> type nul >>C:\ol_kg_log\logkg.000
+	>> type nul >>C:\ol_kg_mirror\logkg_mirror.000
+	>> onspaces -c -d logkg -p C:\ol_kg_log\logkg.000 -o 0 -s 30720 -m C:\ol_kg_mirror\logkg_mirror.000 0
+
    * Stwórz dwie przerzenie (dbspace) przeznaczone na dane tymczasowe o nazwach tmp1_xx, tmp2_xx. Rozmiar każdej przestrzeni to 30 MB w jednym chunku o nazwie nazwach , tmp1_xx, tmp2_xx. Pliki umieść w katalogu c:\ol_xx_tmp.
    * Stwórz bazę danych db1_xx w przestrzeni danexx1
    * Stwórz bazę danych db2_xx w przestrzeni danexx2
