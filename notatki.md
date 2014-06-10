@@ -272,8 +272,37 @@
 	>> ontape -a
 
    3.* Wstaw 10 000 wierszy do tabeli tab2_xx, pamiętaj o zakomitowaniu transakcji
+
+	>> CREATE PROCEDURE bluh()
+		DEFINE i INTEGER;
+		FOR i=1 TO 10000
+			INSERT INTO tab2_kg
+			VALUES (20+i, 'takie tam z backupu (1)');
+		END FOR;
+	END PROCEDURE;
+	BEGIN WORK;
+	EXECUTE PROCEDURE bluh();
+	COMMIT WORK;
+	DROP PROCEDURE bloh;
+
    4.* Wstaw 5 000 wierszy do tabeli tab1_xx, nie komituj transakcji
+
+	>> CREATE PROCEDURE blyh()
+		DEFINE i INTEGER;
+		FOR i=1 TO 5000
+			INSERT INTO tab1_kg
+			VALUES (100+i, 'takie tam z backupu (2)');
+		END FOR;
+	END PROCEDURE;
+	BEGIN WORK;
+	EXECUTE PROCEDURE blyh();
+	DROP PROCEDURE bloh;
+
    5.* Wykonaj checkpoint (full checkpoint), wszystkie dane puli buforów powinny zostać zapisane na dysk, zweryfikuj fakt wykonania checkpointu w „message logu”, zweryfikuj stan kolejek LRU
+
+	>> onmode -c
+	>> onstat -m
+
    6.* (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
    7.* Pamiętaj o backupowaniu logów
    8.* Zasymuluj awarię (przejdź do trybu ofline, usuń pliki tworzące przestrzeń dane1_xx)
