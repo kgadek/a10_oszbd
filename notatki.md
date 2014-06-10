@@ -248,6 +248,12 @@
 
    26.* Pokaż w których dbspaceach/chunkach zostały umieszczone dane
    27.* Zmień strategię fragmentacji, – fragmentacja według wartości pola kod – A – przestrzeń danexx1, B,C – przestrzeń danexx2
+
+	>> ALTER FRAGMENT ON TABLE tab_frag1_kg
+		INIT FRAGMENT BY EXPRESSION
+		kod = 'A' IN danekg1,
+		kod = 'B' OR kod = 'C' IN danekg2;
+
    28.* Pokaż w których dbspaceach/chunkach zostały umieszczone dane
 
 6. Archiwizacja i odtwarzanie

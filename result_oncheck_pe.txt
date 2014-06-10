@@ -434,7 +434,7 @@ DBspace Usage Report: danekg1             Owner: informix  Created: 06/10/2014
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
-     2 C:\ol_kg_data\danekg1_1.000                    4    12800     5319     7481
+     2 C:\ol_kg_data\danekg1_1.000                    4    12800     2375    10425
 
  Description                                                   Offset(p)  Size(p)
  ------------------------------------------------------------- -------- --------
@@ -523,28 +523,16 @@ DBspace Usage Report: danekg1             Owner: informix  Created: 06/10/2014
  db1_kg:'informix'.sysprocplan                                     1055       16
  db1_kg:'informix'. 100_1                                          1071        4
  db1_kg:'informix'.tab1_kg                                         1075      256
- db1_kg:'informix'. 102_3                                          1331        4
- db1_kg:'informix'.tab_frag1_kg                                    1335       32
- db1_kg:'informix'. 102_3                                          1367        4
- db1_kg:'informix'.tab_frag1_kg                                    1371       96
- db1_kg:'informix'. 102_3                                          1467        8
- db1_kg:'informix'.tab_frag1_kg                                    1475      128
- db1_kg:'informix'. 102_3                                          1603       16
- db1_kg:'informix'.tab_frag1_kg                                    1619      128
- db1_kg:'informix'. 102_3                                          1747       32
- db1_kg:'informix'.tab_frag1_kg                                    1779      512
- db1_kg:'informix'. 102_3                                          2291       64
- db1_kg:'informix'.tab_frag1_kg                                    2355      896
- db1_kg:'informix'. 102_3                                          3251      128
- db1_kg:'informix'.tab_frag1_kg                                    3379     1792
- db1_kg:'informix'. 102_3                                          5171      128
- FREE                                                              5299     6140
+ FREE                                                              1331     3968
+ db1_kg:'informix'.tab_frag1_kg                                    5299      640
+ db1_kg:'informix'. 102_3                                          5939      384
+ FREE                                                              6323     5116
  db1_kg:'informix'. 101_2                                         11439        4
  db1_kg:'informix'.tab2_kg                                        11443       16
  FREE                                                             11459     1341
 
- Total Used:     5319
- Total Free:     7481
+ Total Used:     2375
+ Total Free:    10425
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
@@ -565,7 +553,7 @@ DBspace Usage Report: danekg2             Owner: informix  Created: 06/10/2014
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
-     4 C:\ol_kg_data\danekg2_1.000                    4    10240     1455     8785
+     4 C:\ol_kg_data\danekg2_1.000                    4    10240     4143     6097
 
  Description                                                   Offset(p)  Size(p)
  ------------------------------------------------------------- -------- --------
@@ -652,11 +640,12 @@ DBspace Usage Report: danekg2             Owner: informix  Created: 06/10/2014
  db2_kg:'informix'.sysprocplan                                     1031        8
  db2_kg:'informix'.sysproccolumns                                  1039       16
  db2_kg:'informix'.sysprocplan                                     1055       16
- db1_kg:'informix'.tab_frag1_kg                                    1071      384
- FREE                                                              1455     8785
+ FREE                                                              1071      384
+ db1_kg:'informix'.tab_frag1_kg                                    1455     3072
+ FREE                                                              4527     5713
 
- Total Used:     1455
- Total Free:     8785
+ Total Used:     4143
+ Total Free:     6097
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
