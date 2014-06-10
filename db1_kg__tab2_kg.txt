@@ -1,0 +1,115 @@
+
+
+TBLspace Report for db1_kg:informix.tab2_kg
+
+    Physical Address               2:528
+    Creation date                  06/10/2014 04:33:44
+    TBLspace Flags                 801        Page Locking
+                                              TBLspace use 4 bit bit-maps
+    Maximum row size               2404      
+    Number of special columns      0         
+    Number of keys                 0         
+    Number of extents              1         
+    Current serial value           1         
+    Current SERIAL8 value          1         
+    Current BIGSERIAL value        1         
+    Current REFID value            1         
+    Pagesize (k)                   4         
+    First extent size              8         
+    Next extent size               16        
+    Number of pages allocated      16        
+    Number of pages used           11        
+    Number of data pages           10        
+    Number of rows                 10        
+    Partition partnum              2097221   
+    Partition lockid               2097221   
+
+    Extents                       
+         Logical Page     Physical Page        Size Physical Pages
+                    0           2:11443          16         16
+
+
+TBLspace Usage Report for db1_kg:informix.tab2_kg
+
+    Type                  Pages      Empty  Semi-Full       Full  Very-Full
+    ---------------- ---------- ---------- ---------- ---------- ----------
+    Free                      5
+    Bit-Map                   1
+    Index                     0
+    Data (Home)              10
+                     ----------
+    Total Pages              16
+
+    Unused Space Summary
+
+        Unused data slots                                 0
+        Unused bytes per data page                     1660
+        Total unused bytes in data pages              16600
+
+    Home Data Page Version Summary
+
+                 Version                                 Count
+
+                       0 (current)                         10
+
+		  Index  101_2 fragment partition danekg1 in DBspace danekg1
+
+    Physical Address               2:529
+    Creation date                  06/10/2014 04:33:44
+    TBLspace Flags                 801        Page Locking
+                                              TBLspace use 4 bit bit-maps
+    Maximum row size               2404      
+    Number of special columns      0         
+    Number of keys                 1         
+    Number of extents              1         
+    Current serial value           1         
+    Current SERIAL8 value          1         
+    Current BIGSERIAL value        1         
+    Current REFID value            1         
+    Pagesize (k)                   4         
+    First extent size              4         
+    Next extent size               4         
+    Number of pages allocated      4         
+    Number of pages used           2         
+    Number of data pages           0         
+    Number of rows                 0         
+    Partition partnum              2097222   
+    Partition lockid               2097221   
+
+    Extents                       
+         Logical Page     Physical Page        Size Physical Pages
+                    0           2:11439           4          4
+
+
+TBLspace Usage Report for db1_kg:informix.tab2_kg
+
+    Type                  Pages      Empty  Semi-Full       Full  Very-Full
+    ---------------- ---------- ---------- ---------- ---------- ----------
+    Free                      2
+    Bit-Map                   1
+    Index                     1
+    Data (Home)               0
+                     ----------
+    Total Pages               4
+
+    Unused Space Summary
+
+        Unused data slots                                 0
+        Unused bytes per data page                     1660
+        Total unused bytes in data pages                  0
+
+    Home Data Page Version Summary
+
+                 Version                                 Count
+
+                       0 (current)                          0
+
+Index Usage Report for index  101_2 on db1_kg:informix.tab2_kg
+
+                    Average    Average
+    Level    Total No. Keys Free Bytes
+    ----- -------- -------- ----------
+        1        1       10       3938
+    ----- -------- -------- ----------
+    Total        1       10       3938
+

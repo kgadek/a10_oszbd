@@ -174,6 +174,26 @@
    6.* Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
    7.* Ile miejsca zajmuje tabela tab1_xx, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów
    8.* Stwórz w bazie danych db1_xx tabelę tab2_xx o kolumcach: id int (klucz główny), nazwa char 2400
+
+	>> CREATE TABLE tab2_kg (id int, nazwa char(2400), PRIMARY KEY(id));
+	>> CREATE PROCEDURE bleh()
+		DEFINE i INTEGER;
+		FOR i=1 TO 10
+			INSERT INTO tab2_kg (id,nazwa) VALUES (i, 'Watermelon');
+		END FOR;
+	END PROCEDURE;
+	EXECUTE PROCEDURE bleh();
+	DROP PROCEDURE bleh;
+	>> CREATE PROCEDURE blih()
+		DEFINE i INTEGER;
+		FOR i=1 TO 5000
+			INSERT INTO tab1_kg (id,nazwa) VALUES (30000+i, 'H-Bomb');
+		END FOR;
+	END PROCEDURE;
+	EXECUTE PROCEDURE blih();
+	DROP PROCEDURE blih;
+
+
    9.* Wstaw 10 wierszy do tej tabeli tab2_xx
    10.* Wstaw 5000 kolejnych wierszy do tabeli tab1_xx
    11.* Ile miejsca zajmują tabele tab1_xx, tab2_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów

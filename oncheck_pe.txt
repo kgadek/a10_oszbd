@@ -434,7 +434,7 @@ DBspace Usage Report: danekg1             Owner: informix  Created: 06/10/2014
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
-     2 C:\ol_kg_data\danekg1_1.000                    4    12800    11439     1361
+     2 C:\ol_kg_data\danekg1_1.000                    4    12800    12800        0
 
  Description                                                   Offset(p)  Size(p)
  ------------------------------------------------------------- -------- --------
@@ -533,23 +533,26 @@ DBspace Usage Report: danekg1             Owner: informix  Created: 06/10/2014
  db1_kg:'informix'.tab1_kg                                         4719     3584
  db1_kg:'informix'. 100_1                                          8303       64
  db1_kg:'informix'.tab1_kg                                         8367     3072
- FREE                                                             11439     1361
+ db1_kg:'informix'. 101_2                                         11439        4
+ db1_kg:'informix'.tab2_kg                                        11443       16
+ db1_kg:'informix'.tab1_kg                                        11459     1341
 
- Total Used:    11439
- Total Free:     1361
+ Total Used:    12800
+ Total Free:        0
 
 
  Chunk Pathname                             Pagesize(k)  Size(p)  Used(p)  Free(p)
-     3 C:\ol_kg_data\danekg1_2.000                    4     5100        3     5097
+     3 C:\ol_kg_data\danekg1_2.000                    4     5100     2051     3049
 
  Description                                                   Offset(p)  Size(p)
  ------------------------------------------------------------- -------- --------
  RESERVED PAGES                                                       0        2
  CHUNK FREELIST PAGE                                                  2        1
- FREE                                                                 3     5097
+ db1_kg:'informix'.tab1_kg                                            3     2048
+ FREE                                                              2051     3049
 
- Total Used:        3
- Total Free:     5097
+ Total Used:     2051
+ Total Free:     3049
 
 
 
