@@ -1,4 +1,4 @@
-Tworzenie instancji
+1. Tworzenie instancji
 
 	>> IFIX=/c/Program\ Files/IBM/Informix/11.70
 
@@ -16,7 +16,7 @@ Tworzenie instancji
    * Skonfiguruj interfejs dla połączeń sieciowych dla portu 9092
    * Zweryfikuj poprawność utworzenia instancji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranów pokazujących rezultaty tych poleceń)
 
-Konfiguracja połączeń
+2. Konfiguracja połączeń
 
    * Skonfiguruj dodatkowy interfejs dla połączeń sieciowych dla poru 9094
 
@@ -26,7 +26,7 @@ Konfiguracja połączeń
    * Zweryfikuj czy serwer jest w trybie online, jeśli nie to przejdź do trybu online. (wykonaj odpowiednie polecenie, umieść w sprawozdaniu zrzut ekranu pokazujący rezultat tego polecenia)
    * Zweryfikuj możliwość połączenia przy pomocy obu skonfigurowanych interfejsów sieciowych (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
 
-Zarządzanie przestrzenią dyskową
+3. Zarządzanie przestrzenią dyskową
 
    * Stwórz przestrzeń (dbspace) o nazwie danexx1. Rozmiar przestrzeni to 70 MB w dwóch chunkach o nazwach danexx1_1, danexx1_2 o rozmiarach 50MB, 20MB. Pliki umieść w katalogu c:\ol_xx_data. Nie mirroruj tej przestrzeni.
 
@@ -113,56 +113,56 @@ Zarządzanie przestrzenią dyskową
 
 
 
- Zarządzanie logami
+4. Zarządzanie logami
 
-   * Przenieś log fizyczny (phisical log) do przestrzeni log_xx
-   * Przenieś log logiczny (logical log) do przestrzeni log_xx, utwórz dodatkowe elementy logu (logi cal log files) tak aby log logiczny miał w sumie nie mniej niż 40 MB. Jeśli jest taka potrzeba to powiększ rozmiar przestrzeni na logi
-   * Zweryfikuj poprawność konfiguracji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
+   1.* Przenieś log fizyczny (phisical log) do przestrzeni log_xx
+   2.* Przenieś log logiczny (logical log) do przestrzeni log_xx, utwórz dodatkowe elementy logu (logi cal log files) tak aby log logiczny miał w sumie nie mniej niż 40 MB. Jeśli jest taka potrzeba to powiększ rozmiar przestrzeni na logi
+   3.* Zweryfikuj poprawność konfiguracji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
 
-Zarządzanie przestrzenią dyskową 2
+5. Zarządzanie przestrzenią dyskową 2
 
-   * Jeśli baza db1_xx nie była utworzona w „trybie logowania”, zmień tryb logowania bazy na unbuffered (co oznaczają poszczególne „tryby logowania” baz)
-   * Stwórz w bazie danych db1_xx tabelę tab1_xx o kolumcach: id int (klucz główny), nazwa char 1200
-   * Wstaw 30 000 wierszy do tej tabeli
-   * Zaobserwuj proces wypełniania logu logicznego
-   * Pokaż raporty wykorzystania przestrzeni dyskowej, skomentuj istotne parametry które można odczytać z tych raportów
-   * Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
-   * Ile miejsca zajmuje tabela tab1_xx, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów
-   * Stwórz w bazie danych db1_xx tabelę tab2_xx o kolumcach: id int (klucz główny), nazwa char 2400
-   * Wstaw 10 wierszy do tej tabeli tab2_xx
-   * Wstaw 5000 kolejnych wierszy do tabeli tab1_xx
-   * Ile miejsca zajmują tabele tab1_xx, tab2_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów
-   * Pokaż zawartość strony zawierającej 5 wiersz tabeli tab1_xx, ile wierszy znajduje się na tej stronie
-   * Pokaż zawartość strony zawierającej 7 wiersz tabeli tab2_xx, ile wierszy znajduje się na tej stronie
-   * Usuń wiersze o id z przedziału [100 .. 20 000] z tabeli tab1_xxx 
-   * Pokaż raporty wykorzystania przestrzeni dyskowej, , skomentuj istotne parametry które można odczytać z tych raportów
-   * Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
-   * Ile miejsca zajmuje tabela tab1_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów itp.
-   * Usuń wszystkie dane z tab1_xxx
-   * Pokaż raporty wykorzystania przestrzeni dyskowej
-   * Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
-   * Ile miejsca zajmuje tabela tab1_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów itp.
-   * (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
-   * Stwórz w bazie danych db1_xx tabelę tab_frag1_xx o kolumcach: id int (klucz główny), nazwa char 200, kod char(1)
-   * Pofragmentuj tabelę pomiędzy przestrzenie danexx1, danexx2 – fragmentacja według wartości pola kod – A,B – przestrzeń danexx1, C – przestrzeń danexx2
-   * Wstaw 10 000 wierszy do tej tabeli o wartości pola kod = A, 50 000 wierszy o wartości pola kod = B, 7 000 wierszy do tej tabeli o wartości pola kod = C,
-   * Pokaż w których dbspaceach/chunkach zostały umieszczone dane
-   * Zmień strategię fragmentacji, – fragmentacja według wartości pola kod – A – przestrzeń danexx1, B,C – przestrzeń danexx2
-   * Pokaż w których dbspaceach/chunkach zostały umieszczone dane
+   1.* Jeśli baza db1_xx nie była utworzona w „trybie logowania”, zmień tryb logowania bazy na unbuffered (co oznaczają poszczególne „tryby logowania” baz)
+   2.* Stwórz w bazie danych db1_xx tabelę tab1_xx o kolumcach: id int (klucz główny), nazwa char 1200
+   3.* Wstaw 30 000 wierszy do tej tabeli
+   4.* Zaobserwuj proces wypełniania logu logicznego
+   5.* Pokaż raporty wykorzystania przestrzeni dyskowej, skomentuj istotne parametry które można odczytać z tych raportów
+   6.* Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
+   7.* Ile miejsca zajmuje tabela tab1_xx, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów
+   8.* Stwórz w bazie danych db1_xx tabelę tab2_xx o kolumcach: id int (klucz główny), nazwa char 2400
+   9.* Wstaw 10 wierszy do tej tabeli tab2_xx
+   10.* Wstaw 5000 kolejnych wierszy do tabeli tab1_xx
+   11.* Ile miejsca zajmują tabele tab1_xx, tab2_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów
+   12.* Pokaż zawartość strony zawierającej 5 wiersz tabeli tab1_xx, ile wierszy znajduje się na tej stronie
+   13.* Pokaż zawartość strony zawierającej 7 wiersz tabeli tab2_xx, ile wierszy znajduje się na tej stronie
+   14.* Usuń wiersze o id z przedziału [100 .. 20 000] z tabeli tab1_xxx 
+   15.* Pokaż raporty wykorzystania przestrzeni dyskowej, , skomentuj istotne parametry które można odczytać z tych raportów
+   16.* Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
+   17.* Ile miejsca zajmuje tabela tab1_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów itp.
+   18.* Usuń wszystkie dane z tab1_xxx
+   19.* Pokaż raporty wykorzystania przestrzeni dyskowej
+   20.* Ile jest wolnego miejsca w poszczególnych przestrzeniach dyskowych, ile w poszczególnych chunkach
+   21.* Ile miejsca zajmuje tabela tab1_xx, w ilu stronach, w ilu extent’ach, jaki jest rozmiar poszczególnych extent’ów itp.
+   22.* (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
+   23.* Stwórz w bazie danych db1_xx tabelę tab_frag1_xx o kolumcach: id int (klucz główny), nazwa char 200, kod char(1)
+   24.* Pofragmentuj tabelę pomiędzy przestrzenie danexx1, danexx2 – fragmentacja według wartości pola kod – A,B – przestrzeń danexx1, C – przestrzeń danexx2
+   25.* Wstaw 10 000 wierszy do tej tabeli o wartości pola kod = A, 50 000 wierszy o wartości pola kod = B, 7 000 wierszy do tej tabeli o wartości pola kod = C,
+   26.* Pokaż w których dbspaceach/chunkach zostały umieszczone dane
+   27.* Zmień strategię fragmentacji, – fragmentacja według wartości pola kod – A – przestrzeń danexx1, B,C – przestrzeń danexx2
+   28.* Pokaż w których dbspaceach/chunkach zostały umieszczone dane
 
-Archiwizacja i odtwarzanie
+6. Archiwizacja i odtwarzanie
 
-   * Skonfiguruj i wykonaj backup danych
-   * Skonfiguruj i wykonaj backup logów
-   * Wstaw 10 000 wierszy do tabeli tab2_xx, pamiętaj o zakomitowaniu transakcji
-   * Wstaw 5 000 wierszy do tabeli tab1_xx, nie komituj transakcji
-   * Wykonaj checkpoint (full checkpoint), wszystkie dane puli buforów powinny zostać zapisane na dysk, zweryfikuj fakt wykonania checkpointu w „message logu”, zweryfikuj stan kolejek LRU
-   * (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
-   * Pamiętaj o backupowaniu logów
-   * Zasymuluj awarię (przejdź do trybu ofline, usuń pliki tworzące przestrzeń dane1_xx)
-   * Spróbuj przejść do trybu online
-   * Sprawdź status dbspace’ów
-   * Odtwórz dane z backupu
-   * Wiersze wstawione do tabeli tab2_xx powinny zostać odtworzone
-   * Wiersze wstawione do tabeli tab1_xx powinny zostać wycofane
-   * (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
+   1.* Skonfiguruj i wykonaj backup danych
+   2.* Skonfiguruj i wykonaj backup logów
+   3.* Wstaw 10 000 wierszy do tabeli tab2_xx, pamiętaj o zakomitowaniu transakcji
+   4.* Wstaw 5 000 wierszy do tabeli tab1_xx, nie komituj transakcji
+   5.* Wykonaj checkpoint (full checkpoint), wszystkie dane puli buforów powinny zostać zapisane na dysk, zweryfikuj fakt wykonania checkpointu w „message logu”, zweryfikuj stan kolejek LRU
+   6.* (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
+   7.* Pamiętaj o backupowaniu logów
+   8.* Zasymuluj awarię (przejdź do trybu ofline, usuń pliki tworzące przestrzeń dane1_xx)
+   9.* Spróbuj przejść do trybu online
+   10.* Sprawdź status dbspace’ów
+   11.* Odtwórz dane z backupu
+   12.* Wiersze wstawione do tabeli tab2_xx powinny zostać odtworzone
+   13.* Wiersze wstawione do tabeli tab1_xx powinny zostać wycofane
+   14.* (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
