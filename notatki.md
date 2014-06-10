@@ -52,6 +52,13 @@ Zarządzanie przestrzenią dyskową
 	>> onspaces -c -d logkg -p C:\ol_kg_log\logkg.000 -o 0 -s 30720 -m C:\ol_kg_mirror\logkg_mirror.000 0
 
    * Stwórz dwie przerzenie (dbspace) przeznaczone na dane tymczasowe o nazwach tmp1_xx, tmp2_xx. Rozmiar każdej przestrzeni to 30 MB w jednym chunku o nazwie nazwach , tmp1_xx, tmp2_xx. Pliki umieść w katalogu c:\ol_xx_tmp.
+
+	>> mkdir C:\ol_kg_tmp
+	>> type nul >>C:\ol_kg_tmp\tmp1_kg.000
+	>> type nul >>C:\ol_kg_tmp\tmp2_kg.000
+	>> onspaces -c -d tmp1_kg -t -p C:\ol_kg_tmp\tmp1_kg.000 -o 0 -s 30720
+	>> onspaces -c -d tmp2_kg -t -p C:\ol_kg_tmp\tmp2_kg.000 -o 0 -s 30720
+
    * Stwórz bazę danych db1_xx w przestrzeni danexx1
    * Stwórz bazę danych db2_xx w przestrzeni danexx2
    * Zweryfikuj poprawność konfiguracji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
