@@ -61,8 +61,57 @@ Zarządzanie przestrzenią dyskową
 
    * Stwórz bazę danych db1_xx w przestrzeni danexx1
    * Stwórz bazę danych db2_xx w przestrzeni danexx2
+
+	>> #via dbaccess
+
    * Zweryfikuj poprawność konfiguracji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
    * Podaj ilość wolnego miejsca w każdej przestrzeni
+
+	>> #http://www.tek-tips.com/viewthread.cfm?qid=776550
+	>> select
+	     sysdbstab.name,
+	     sum(syschktab.chksize*4096) total,
+	     sum(chksize - nfree)*4096 nused,
+	     sum(syschktab.nfree*4096) free
+	   from
+	     syschktab, sysdbstab
+	   where
+	     syschktab.dbsnum = sysdbstab.dbsnum
+	     group by 1 ;
+
+	>> #wyniki w B
+
+	<< name   danekg2
+	<< total  73400320
+	<< nused  4399104
+	<< free   69001216
+
+	<< name   rootdbs
+	<< total  209715200
+	<< nused  134258688
+	<< free   75456512
+
+	<< name   tmp1_kg
+	<< total  31457280
+	<< nused  217088
+	<< free   31240192
+
+	<< name   danekg1
+	<< total  73318400
+	<< nused  4399104
+	<< free   68919296
+
+	<< name   logkg
+	<< total  31457280
+	<< nused  217088
+	<< free   31240192
+
+	<< name   tmp2_kg
+	<< total  31457280
+	<< nused  217088
+	<< free   31240192
+
+
 
  Zarządzanie logami
 
