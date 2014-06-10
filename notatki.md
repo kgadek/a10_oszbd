@@ -134,6 +134,10 @@
 	>> onparams -a -d logkg -s 10240
 	>> onparams -a -d logkg -s 10240
 	>> onparams -a -d logkg -s 10240
+	>> onmode -c #odpowiednią ilość razy
+	>> onmode -l
+	>> onparams -d -l N #dla N <- [1..6]
+	>> oncheck -pe logkg
 
 
    3.* Zweryfikuj poprawność konfiguracji (wykonaj odpowiednie polecenia, umieść w sprawozdaniu zrzuty ekranu pokazujące rezultaty tych poleceń)
